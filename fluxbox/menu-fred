@@ -1,10 +1,10 @@
 # Please set menu in ~/.fluxbox/init to:
 #     session.menuFile: ~/.fluxbox/mymenu
-[begin] (isaque @ slate)
+[begin] (isaque @ fred)
 [encoding] {UTF-8}
 	[exec] (Firefox) {firefox}
 	[exec] (Nautilus) {nautilus}
-	[exec] (Notes) {ibm-notes9}
+	[exec] (Editor) {gedit}
 	[exec] (Terminal) {tilix}
 	[commanddialog] (Run...)
 	[separator]
