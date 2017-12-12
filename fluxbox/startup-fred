@@ -15,7 +15,9 @@ xmodmap "/home/isaque/.Xmodmap"
 # wmsmixer -w &
 # idesk &
 nm-applet &
+pnmixer &
 ~/.fehbg &
+xcompmgr -f -c -n -C -F &
 
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.

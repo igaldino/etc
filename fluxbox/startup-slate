@@ -14,10 +14,11 @@ xmodmap "/home/isaque/.Xmodmap"
 # wmnd &
 # wmsmixer -w &
 # idesk &
+~/.fehbg &
+nm-applet &
+pnmixer &
 skypeforlinux &
 slack &
-nm-applet &
-~/.fehbg &
 compton &
 
 # And last but not least we start fluxbox.
