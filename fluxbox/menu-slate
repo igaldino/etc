@@ -1,0 +1,26 @@
+# Please set menu in ~/.fluxbox/init to:
+#     session.menuFile: ~/.fluxbox/mymenu
+[begin] (isaque @ slate)
+[encoding] {UTF-8}
+	[exec] (Firefox) {firefox}
+	[exec] (Nautilus) {nautilus}
+	[exec] (Notes) {ibm-notes9}
+	[exec] (RAD) {/home/isaque/IBM/SDP/eclipse -product com.ibm.rational.rad.product.v95.ide}
+	[exec] (Terminal) {tilix}
+	[commanddialog] (Run...)
+	[separator]
+	[config] (Configure)
+	[submenu] (Styles) {Choose a style...}
+		[stylesdir] (~/.fluxbox/styles)
+		[stylesdir] (/usr/share/fluxbox/styles)
+	[end]
+	[submenu] (Backgrounds)
+		[wallpapers] (~/Imagens) {feh --bg-scale}
+		[wallpapers] (~/.fluxbox/backgrounds) {feh --bg-scale}
+		[wallpapers] (/usr/share/fluxbox/backgrounds) {feh --bg-scale}
+	[end]
+	[separator]
+	[restart] (Restart)
+	[exit] (Exit)
+[endencoding]
+[end]
