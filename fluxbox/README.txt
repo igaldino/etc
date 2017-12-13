@@ -8,7 +8,9 @@ sudo dnf install \
 	feh \
 	arc-theme \
 	pop-icon-theme \
-	xcompmgr
+	xcompmgr \
+	pavucontrol \
+	pulseaudio-equalizer
 
 sudo dnf copr enable mrbloups/compton 
 sudo dnf install compton
