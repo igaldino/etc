@@ -12,5 +12,3 @@ sudo dnf install \
 	pavucontrol \
 	pulseaudio-equalizer
 
-sudo dnf copr enable mrbloups/compton 
-sudo dnf install compton

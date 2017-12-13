@@ -6,6 +6,7 @@
 	[exec] (Nautilus) {nautilus}
 	[exec] (Notes) {ibm-notes9}
 	[exec] (RAD) {/home/isaque/IBM/SDP/eclipse -product com.ibm.rational.rad.product.v95.ide}
+	[exec] (Editor) {gedit}
 	[exec] (Terminal) {tilix}
 	[commanddialog] (Run...)
 	[separator]
