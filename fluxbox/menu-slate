@@ -3,26 +3,30 @@
 [begin] (isaque @ slate)
 [encoding] {UTF-8}
 	[exec] (Firefox) {firefox}
-	[exec] (Nautilus) {nautilus}
+	[exec] (Chrome) {google-chrome}
+	[exec] (Arquivos) {nautilus}
+	[exec] (Senhas) {keepassx2}
+	[exec] (Editor) {gedit}
+	[exec] (Terminal) {gnome-terminal}
 	[exec] (Notes) {ibm-notes9}
 	[exec] (ILC) {/opt/ibm/ILC/ilc}
 	[exec] (RAD) {/home/isaque/IBM/SDP/eclipse -product com.ibm.rational.rad.product.v95.ide}
-	[exec] (Editor) {gedit}
-	[exec] (Terminal) {tilix}
-	[commanddialog] (Run...)
-	[separator]
-	[config] (Configure)
-	[submenu] (Styles) {Choose a style...}
-		[stylesdir] (~/.fluxbox/styles)
-		[stylesdir] (/usr/share/fluxbox/styles)
+	[include] (~/.fluxbox/apps-menu)
+	[submenu] (Fluxbox)
+		[config] (Configuração)
+		[submenu] (Estilos) {Escolha um estilo...}
+			[stylesdir] (~/.fluxbox/styles)
+			[stylesdir] (/usr/share/fluxbox/styles)
+		[end]
+		[submenu] (Papéis de Parede) {Escolha um papel de parede...}
+			[wallpapers] (~/Imagens) {feh --bg-scale}
+			[wallpapers] (~/.fluxbox/backgrounds) {feh --bg-scale}
+			[wallpapers] (/usr/share/fluxbox/backgrounds) {feh --bg-scale}
+		[end]
+		[exec] (Recriar menu) {~/bin/fbxdgmenu.py > ~/.fluxbox/apps-menu}
+		[restart] (Restart)
 	[end]
-	[submenu] (Backgrounds)
-		[wallpapers] (~/Imagens) {feh --bg-scale}
-		[wallpapers] (~/.fluxbox/backgrounds) {feh --bg-scale}
-		[wallpapers] (/usr/share/fluxbox/backgrounds) {feh --bg-scale}
-	[end]
-	[separator]
-	[restart] (Restart)
+	[exec] (Executar...) {fbrun}
 	[exit] (Exit)
 [endencoding]
 [end]

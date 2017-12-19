@@ -3,6 +3,7 @@
 [begin] (isaque @ fred)
 [encoding] {UTF-8}
 	[exec] (Firefox) {firefox}
+	[exec] (Chrome) {google-chrome}
 	[exec] (Arquivos) {nautilus}
 	[exec] (Senhas) {keepassx2}
 	[exec] (Editor) {gedit}
