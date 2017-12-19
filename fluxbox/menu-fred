@@ -3,23 +3,26 @@
 [begin] (isaque @ fred)
 [encoding] {UTF-8}
 	[exec] (Firefox) {firefox}
-	[exec] (Nautilus) {nautilus}
+	[exec] (Arquivos) {nautilus}
+	[exec] (Senhas) {keepassx2}
 	[exec] (Editor) {gedit}
-	[exec] (Terminal) {tilix}
-	[commanddialog] (Run...)
-	[separator]
-	[config] (Configure)
-	[submenu] (Styles) {Choose a style...}
-		[stylesdir] (~/.fluxbox/styles)
-		[stylesdir] (/usr/share/fluxbox/styles)
+	[exec] (Terminal) {gnome-terminal}
+	[include] (~/.fluxbox/apps-menu)
+	[submenu] (Fluxbox)
+		[config] (Configuração)
+		[submenu] (Estilos) {Escolha um estilo...}
+			[stylesdir] (~/.fluxbox/styles)
+			[stylesdir] (/usr/share/fluxbox/styles)
+		[end]
+		[submenu] (Papéis de Parede) {Escolha um papel de parede...}
+			[wallpapers] (~/Imagens) {feh --bg-scale}
+			[wallpapers] (~/.fluxbox/backgrounds) {feh --bg-scale}
+			[wallpapers] (/usr/share/fluxbox/backgrounds) {feh --bg-scale}
+		[end]
+		[exec] (Recriar menu) {~/bin/fbxdgmenu.py > ~/.fluxbox/apps-menu}
+		[restart] (Reiniciar)
 	[end]
-	[submenu] (Backgrounds)
-		[wallpapers] (~/Imagens) {feh --bg-scale}
-		[wallpapers] (~/.fluxbox/backgrounds) {feh --bg-scale}
-		[wallpapers] (/usr/share/fluxbox/backgrounds) {feh --bg-scale}
-	[end]
-	[separator]
-	[restart] (Restart)
-	[exit] (Exit)
+	[exec] (Executar...) {fbrun}
+	[exit] (Sair)
 [endencoding]
 [end]
