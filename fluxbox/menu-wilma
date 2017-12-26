@@ -1,0 +1,25 @@
+# Please set menu in ~/.fluxbox/init to:
+#     session.menuFile: ~/.fluxbox/mymenu
+[begin] (isaque @ fred)
+[encoding] {UTF-8}
+	[exec] (Firefox) {firefox}
+	[exec] (Terminal) {urxvt}
+	[include] (~/.fluxbox/apps-menu)
+	[submenu] (Fluxbox)
+		[config] (Configuração)
+		[submenu] (Estilos) {Escolha um estilo...}
+			[stylesdir] (~/.fluxbox/styles)
+			[stylesdir] (/usr/share/fluxbox/styles)
+		[end]
+		[submenu] (Papéis de Parede) {Escolha um papel de parede...}
+			[wallpapers] (~/Imagens) {feh --bg-scale}
+			[wallpapers] (~/.fluxbox/backgrounds) {feh --bg-scale}
+			[wallpapers] (/usr/share/fluxbox/backgrounds) {feh --bg-scale}
+		[end]
+		[exec] (Recriar menu) {~/bin/fbxdgmenu.py > ~/.fluxbox/apps-menu}
+		[restart] (Reiniciar)
+	[end]
+	[exec] (Executar...) {fbrun}
+	[exit] (Sair)
+[endencoding]
+[end]
