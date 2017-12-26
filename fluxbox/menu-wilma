@@ -12,9 +12,9 @@
 			[stylesdir] (/usr/share/fluxbox/styles)
 		[end]
 		[submenu] (Papéis de Parede) {Escolha um papel de parede...}
-			[wallpapers] (~/Imagens) {feh --bg-scale}
-			[wallpapers] (~/.fluxbox/backgrounds) {feh --bg-scale}
-			[wallpapers] (/usr/share/fluxbox/backgrounds) {feh --bg-scale}
+			[wallpapers] (~/Imagens) {feh --bg-fill}
+			[wallpapers] (~/.fluxbox/backgrounds) {feh --bg-fill}
+			[wallpapers] (/usr/share/fluxbox/backgrounds) {feh --bg-fill}
 		[end]
 		[exec] (Recriar menu) {~/bin/fbxdgmenu.py > ~/.fluxbox/apps-menu}
 		[restart] (Reiniciar)
