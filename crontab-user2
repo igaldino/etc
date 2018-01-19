@@ -1,1 +1,1 @@
-30 * * * * ~/bin/backup.sh net commit
+30 * * * * ~/bin/backup.sh net commit quiet
