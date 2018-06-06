@@ -1,0 +1,7 @@
+compton &
+setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:win_space_toggle"
+xinput set-prop 12 283 1
+nitrogen --restore
+tint2 &
+conky &
+volumeicon &
