@@ -1,6 +1,6 @@
 compton &
 setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:win_space_toggle"
-xinput set-prop 12 284 1
+xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 nitrogen --restore
 tint2 &
 conky &
