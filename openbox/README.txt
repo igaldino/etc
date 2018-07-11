@@ -8,6 +8,9 @@ ln -s $HOME/etc/openbox/_gtkrc-2.0 ~/.gtkrc-2.0
 ln -s $HOME/etc/openbox/settings.ini ~/.config/gtk-3.0/.
 ln -s $HOME/etc/openbox/tint2rc ~/.config/tint2/.
 
+sudo systemctl disable gdm
+sudo systemctl enable lightdm
+
 # Find touchpad to enable tap
 # $ xinput list
 #   ...
