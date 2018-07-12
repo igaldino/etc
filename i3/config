@@ -177,7 +177,7 @@ bar {
         status_command i3status
 }
 
-exec compton 
-exec nm-applet
-exec setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:win_space_toggle"
-exec nitrogen --restore
+exec --no-startup-id compton 
+exec --no-startup-id nm-applet
+exec --no-startup-id setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:win_space_toggle"
+exec --no-startup-id nitrogen --restore
