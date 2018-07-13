@@ -1,5 +1,7 @@
-XTerm.vt100.faceName: xft:Inconsolata:size=11:antialias=true
-URxvt.font: xft:Inconsolata:size=11
+*.multiClickTime:       750
+
+XTerm.vt100.faceName:   xft:Inconsolata:size=11:antialias=true
+URxvt.font:             xft:Inconsolata:size=11
 
 #define S_base03        #002b36
 #define S_base02        #073642
