@@ -182,3 +182,4 @@ exec --no-startup-id nm-applet
 exec --no-startup-id setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:win_space_toggle"
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id sametime9-connect
+exec --no-startup-id redshift-gtk
