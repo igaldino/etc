@@ -1,5 +1,5 @@
 lxpolkit &
-compton -f &
+compton -f -c &
 nm-applet &
 nitrogen --restore &
 tint2 &
