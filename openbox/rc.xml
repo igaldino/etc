@@ -314,13 +314,9 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-e">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Konqueror</name>
-        </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
+    <keybind key="W-a">
+      <action name="ShowMenu">
+        <menu>root-menu</menu>
       </action>
     </keybind>
     <!-- Keybindings for screen lock -->
