@@ -8,6 +8,7 @@ ln -s ~/etc/_gtkrc-2.0 ~/.gtkrc-2.0
 ln -s ~/etc/settings.ini ~/.config/gtk-3.0/.
 ln -s ~/etc/_Xdefaults ~/.Xdefaults
 ln -s ~/etc/redshift-sao-paulo.conf ~/.config/redshift.conf
+ln -s ~/etc/openbox/rc.xml ~/.config/openbox/.
 ln -s ~/etc/openbox/autostart-`hostname -s` ~/.config/openbox/autostart
 ln -s ~/etc/openbox/tint2rc ~/.config/tint2/.
 sudo ln -s ~/etc/30-touchpad.conf /etc/X11/xorg.conf.d/.
