@@ -1,0 +1,4 @@
+compton -f -c --shadow-exclude-reg x30+0-0 &
+nitrogen --restore &
+tint2 &
+#volumeicon &
