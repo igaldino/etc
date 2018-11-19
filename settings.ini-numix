@@ -1,5 +1,5 @@
 [Settings]
 gtk-theme-name = Numix
-gtk-icon-theme-name = Numix Circle
+gtk-icon-theme-name = Numix-Circle
 gtk-font-name = Cantarell 11
 gtk-decoration-layout = menu:close
