@@ -1,5 +1,5 @@
 # Install
-sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet lightdm-gtk-greeter-settings light-locker redshift-gtk python2-gobject
+sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet lightdm-gtk-greeter-settings light-locker redshift-gtk python2-gobject xdotool
 
 # Settings
 mkdir ~/.config/openbox
@@ -9,6 +9,7 @@ ln -s ~/etc/settings.ini ~/.config/gtk-3.0/.
 ln -s ~/etc/_Xdefaults ~/.Xdefaults
 ln -s ~/etc/redshift-sao-paulo.conf ~/.config/redshift.conf
 ln -s ~/etc/openbox/rc.xml-`hostname -s` ~/.config/openbox/rc.xml
+ln -s ~/etc/openbox/menu.xml-`hostname -s` ~/.config/openbox/menu.xml
 ln -s ~/etc/openbox/autostart-`hostname -s` ~/.config/openbox/autostart
 ln -s ~/etc/openbox/tint2rc-`hostname -s` ~/.config/tint2/tint2rc
 sudo ln -s ~/etc/30-touchpad.conf /etc/X11/xorg.conf.d/.

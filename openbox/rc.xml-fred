@@ -319,6 +319,10 @@
     <keybind key="W-a">
       <action name="ShowMenu">
         <menu>root-menu</menu>
+        <position>
+          <x>0</x>
+          <y>-32</y>
+        </position>
       </action>
     </keybind>
     <!-- Keybindings for screen lock -->
