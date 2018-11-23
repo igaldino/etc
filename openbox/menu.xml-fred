@@ -15,6 +15,11 @@
   <item label="Reconfigure">
     <action name="Reconfigure" />
   </item>
+  <item label="Lock screen">
+    <action name="Execute">
+      <command>light-locker-command -l</command>
+    </action>
+  </item>
   <item label="Exit">
     <action name="Execute">
       <command>wm-exit.py openbox</command>
