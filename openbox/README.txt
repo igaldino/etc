@@ -5,7 +5,7 @@ sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manage
 mkdir -p ~/.config/openbox
 mkdir -p ~/.config/tint2
 ln -sf ~/etc/_gtkrc-2.0 ~/.gtkrc-2.0
-ln -sf ~/etc/settings.ini ~/.config/gtk-3.0/.
+ln -sf ~/etc/settings.ini ~/.config/gtk-3.0/settings.ini
 ln -sf ~/etc/_Xdefaults ~/.Xdefaults
 ln -sf ~/etc/redshift-sao-paulo.conf ~/.config/redshift.conf
 ln -sf ~/etc/openbox/rc.xml-`hostname -s` ~/.config/openbox/rc.xml
