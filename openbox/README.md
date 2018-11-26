@@ -2,6 +2,7 @@
 sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet lightdm-gtk-greeter-settings light-locker redshift-gtk python2-gobject xdotool
 
 # Settings
+```
 mkdir -p ~/.config/openbox
 mkdir -p ~/.config/tint2
 ln -sf ~/etc/_gtkrc-2.0 ~/.gtkrc-2.0
@@ -17,7 +18,10 @@ sudo ln -sf ~/etc/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 
 sudo systemctl disable gdm
 sudo systemctl enable lightdm
+```
 
 # Uninstall
+```
 sudo dnf history undo ...
 rm -rf .gtkrc-2.0 .config/gtk-3.0/settings.ini .config/{openbox,tint2} .cache/{openbox,tint2}
+```
