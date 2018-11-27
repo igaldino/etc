@@ -1,6 +1,6 @@
 # Install
 ```
-sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet lightdm-gtk-greeter-settings light-locker redshift-gtk python2-gobject xdotool dunst rofi
+sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet lightdm-gtk-greeter-settings light-locker redshift-gtk python2-gobject xdotool dunst rofi numix-gtk-theme numix-icon-theme-circle
 ```
 
 # Settings
@@ -31,5 +31,5 @@ sudo systemctl enable lightdm
 # Uninstall
 ```
 sudo dnf history undo ...
-rm -rf .gtkrc-2.0 .config/gtk-3.0/settings.ini .config/{openbox,tint2} .cache/{openbox,tint2}
+rm -rf .gtkrc-2.0 .config/gtk-3.0/settings.ini ~/.Xdefaults .config/{redshift.conf,openbox,tint2,dunst,rofi} .cache/{openbox,tint2,dunst,rofi}
 ```
