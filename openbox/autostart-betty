@@ -1,3 +1,4 @@
+dunst &
 lxpolkit &
 compton -f -c &
 nm-applet &

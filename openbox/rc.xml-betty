@@ -265,6 +265,24 @@
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
+    <keybind key="W-Tab">
+      <action name="NextWindow">
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
+    <keybind key="W-S-Tab">
+      <action name="PreviousWindow">
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
     <keybind key="A-Tab">
       <action name="NextWindow">
         <finalactions>
@@ -316,13 +334,22 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-a">
+    <keybind key="W-m">
       <action name="ShowMenu">
         <menu>root-menu</menu>
         <position>
           <x>0</x>
           <y>-32</y>
         </position>
+      </action>
+    </keybind>
+    <keybind key="W-a">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Rofi</name>
+        </startupnotify>
+        <command>rofi -show drun</command>
       </action>
     </keybind>
     <!-- Keybindings for screen lock -->
