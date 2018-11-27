@@ -1,6 +1,6 @@
 # Install
 ```
-sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet lightdm-gtk-greeter-settings light-locker redshift-gtk python2-gobject xdotool dunst
+sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet lightdm-gtk-greeter-settings light-locker redshift-gtk python2-gobject xdotool dunst rofi
 ```
 
 # Settings
@@ -8,6 +8,7 @@ sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manage
 mkdir -p ~/.config/openbox
 mkdir -p ~/.config/tint2
 mkdir -p ~/.config/dunst
+mkdir -p ~/.config/rofi
 
 ln -sf ~/etc/_gtkrc-2.0 ~/.gtkrc-2.0
 ln -sf ~/etc/settings.ini ~/.config/gtk-3.0/settings.ini
@@ -18,6 +19,7 @@ ln -sf ~/etc/openbox/menu.xml-`hostname -s` ~/.config/openbox/menu.xml
 ln -sf ~/etc/openbox/autostart-`hostname -s` ~/.config/openbox/autostart
 ln -sf ~/etc/openbox/tint2rc-`hostname -s` ~/.config/tint2/tint2rc
 ln -sf ~/etc/dunstrc ~/.config/dunst/dunstrc
+ln -sf ~/etc/rofi.config ~/.config/rofi/config
 
 sudo ln -sf ~/etc/30-touchpad.conf /etc/X11/xorg.conf.d/.
 sudo ln -sf ~/etc/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
