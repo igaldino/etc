@@ -1,6 +1,6 @@
 # Install
 ```
-sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet redshift-gtk python2-gobject i3lock xautolock xdotool dunst rofi numix-gtk-theme numix-icon-theme-circle
+sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet lightdm-gtk redshift-gtk python2-gobject i3lock xautolock xdotool dunst rofi numix-gtk-theme numix-icon-theme-circle
 ```
 
 # Settings
