@@ -6,4 +6,4 @@ nitrogen --restore &
 tint2 &
 redshift-gtk &
 setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:win_space_toggle" &
-xautolock -time 1 -locker wm-lock.sh &
+xautolock -locker wm-lock.sh &
