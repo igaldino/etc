@@ -22,7 +22,7 @@ ln -sf ~/etc/dunstrc-numix ~/.config/dunst/dunstrc
 ln -sf ~/etc/rofi.config-numix ~/.config/rofi/config
 
 sudo ln -sf ~/etc/30-touchpad.conf /etc/X11/xorg.conf.d/.
-sudo ln -sf ~/etc/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
+sudo ln -sf ~/etc/lightdm-gtk-greeter.conf-numix /etc/lightdm/lightdm-gtk-greeter.conf
 
 sudo systemctl disable gdm
 sudo systemctl enable lightdm
