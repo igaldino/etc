@@ -5,3 +5,4 @@ nm-applet &
 nitrogen --restore &
 tint2 &
 redshift-gtk &
+xautolock -time 1 -locker wm-lock.sh &

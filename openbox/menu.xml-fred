@@ -17,7 +17,7 @@
   </item>
   <item label="Lock screen">
     <action name="Execute">
-      <command>light-locker-command -l</command>
+      <command>wm-lock.sh</command>
     </action>
   </item>
   <item label="Exit">
