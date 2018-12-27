@@ -1,1 +1,18 @@
 # etc
+```
+sudo dnf install lightdm-gtk leafpad lxterminal pcmanfm
+```
+
+# Settings
+```
+sudo ln -sf ~/etc/30-touchpad.conf /etc/X11/xorg.conf.d/.
+sudo cp ~/etc/lightdm-gtk-greeter.conf-numix /etc/lightdm/lightdm-gtk-greeter.conf
+
+sudo systemctl enable lightdm
+```
+
+# Uninstall
+```
+sudo dnf history undo ...
+```
+
