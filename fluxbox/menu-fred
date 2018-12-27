@@ -1,7 +1,8 @@
 [begin] (Fedora)
 [encoding] {UTF-8}
-  [exec] (Web browser) {firefox}
-  [exec] (Text editor) {leafpad}
+  [exec] (Browser) {firefox}
+  [exec] (Arquivos) {pcmanfm}
+  [exec] (Editor) {leafpad}
   [exec] (Terminal) {lxterminal}
   [include] (~/.fluxbox/app-menu)
   [workspaces] (Espaços de trabalho)
