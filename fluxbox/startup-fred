@@ -1,16 +1,20 @@
 #!/bin/sh
 
+# Services
 dunst &
 lxpolkit &
 compton -f -c &
-nm-applet &
+
+# Wallpaper
 nitrogen --restore &
+
+# Systray
+nm-applet &
 redshift-gtk &
+volumeicon &
+
+# Lock
 xautolock -locker wm-lock.sh &
 
-# And last but not least we start fluxbox.
-# Because it is the last app you have to run it with ''exec'' before it.
-
+# Fluxbox
 exec fluxbox
-# or if you want to keep a log:
-# exec fluxbox -log "/home/isaque/.fluxbox/log"
