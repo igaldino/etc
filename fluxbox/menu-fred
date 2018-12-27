@@ -1,0 +1,21 @@
+[begin] (Fedora)
+[encoding] {UTF-8}
+  [exec] (Web browser) {firefox}
+  [exec] (Text editor) {leafpad}
+  [exec] (Terminal) {lxterminal}
+  [include] (~/.fluxbox/app-menu)
+  [workspaces] (Espaços de trabalho)
+  [exec] (Comando...) {fbrun}
+  [separator]
+  [config] (Configuração)
+  [submenu] (Estilos)
+    [stylesdir] (/usr/share/fluxbox/styles)
+    [stylesdir] (~/.fluxbox/styles)
+  [end]
+  [exec] (Recriar menu) {fluxbox-xdg-menu --submenu --file=~/.fluxbox/app-menu}
+  [restart] (Reiniciar)
+  [separator]
+  [exec] (Sobre) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
+  [exit] (Sair)
+[endencoding]
+[end]

@@ -1,0 +1,43 @@
+*.font: Cantarell-9:bold
+*.color: #444444
+*.borderColor: #444444
+*.textColor: #eeeeee
+*.bevelWidth: 1
+
+# Menu
+
+menu: flat
+menu.bullet: triangle
+menu.bullet.position: Right
+menu.title.justify: center
+menu.frame.justify: left
+menu.frame.disableColor: #888888
+menu.hilite.color: #f06860
+menu.hilite.textColor: #ffffff			
+
+# Toolbar
+
+toolbar: flat
+toolbar.justify: center
+toolbar.workspace.justify: Center
+toolbar.button.picColor: #f06860
+toolbar.iconbar.focused.color: #f06860
+toolbar.iconbar.focused.textColor: #ffffff
+toolbar.iconbar.focused.justify: left
+toolbar.iconbar.unfocused.justify: left
+toolbar.clock.justify: center
+
+# Window
+
+window: flat
+window.shade: false
+window.borderWidth: 1
+window.justify: Center
+window.handleWidth: 0
+window.title.unfocus.color: #444444
+window.label.unfocus.color: #444444
+window.label.unfocus.textColor: #888888
+window.button.unfocus.color: #444444
+window.button.unfocus.picColor: #888888
+window.handle.unfocus.color: #444444
+window.grip.unfocus.color: #444444
