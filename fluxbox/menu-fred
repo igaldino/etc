@@ -17,6 +17,6 @@
   [restart] (Reiniciar)
   [separator]
   [exec] (Sobre) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
-  [exit] (Sair)
+  [exec] (Sair) {~/bin/wm-exit.py}
 [endencoding]
 [end]
