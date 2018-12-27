@@ -14,6 +14,7 @@ ln -sf ~/etc/settings.ini-numix ~/.config/gtk-3.0/settings.ini
 ln -sf ~/etc/theme.cfg-numix ~/.fluxbox/styles/Numix/theme.cfg
 ln -sf ~/etc/redshift-sao-paulo.conf ~/.config/redshift.conf
 ln -sf ~/etc/fluxbox/init-`hostname -s` ~/.fluxbox/init
+ln -sf ~/etc/fluxbox/keys-`hostname -s` ~/.fluxbox/keys
 ln -sf ~/etc/fluxbox/menu-`hostname -s` ~/.fluxbox/menu
 ln -sf ~/etc/fluxbox/startup-`hostname -s` ~/.fluxbox/startup
 ln -sf ~/etc/dunstrc-numix ~/.config/dunst/dunstrc
