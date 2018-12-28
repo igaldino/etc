@@ -1,11 +1,12 @@
 # Install
 ```
-sudo dnf install fluxbox compton nitrogen volumeicon network-manager-applet redshift-gtk python2-gobject i3lock xautolock dunst numix-gtk-theme numix-icon-theme-circle
+sudo dnf install fluxbox compton nitrogen volumeicon network-manager-applet redshift-gtk python2-gobject i3lock xautolock dunst rofi numix-gtk-theme numix-icon-theme-circle
 ```
 
 # Settings
 ```
 mkdir -p ~/.fluxbox/styles/Numix
+mkdir -p ~/.config/gtk-3.0
 mkdir -p ~/.config/dunst
 mkdir -p ~/.config/rofi
 
@@ -18,11 +19,12 @@ ln -sf ~/etc/fluxbox/keys-`hostname -s` ~/.fluxbox/keys
 ln -sf ~/etc/fluxbox/menu-`hostname -s` ~/.fluxbox/menu
 ln -sf ~/etc/fluxbox/startup-`hostname -s` ~/.fluxbox/startup
 ln -sf ~/etc/dunstrc-numix ~/.config/dunst/dunstrc
+ln -sf ~/etc/rofi.config-numix ~/.config/rofi/config
 ```
 
 # Uninstall
 ```
 sudo dnf history undo ...
-rm -rf ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.fluxbox ~/.config/{redshift.conf,dunst,volumeicon,nitrogen} ~/.cache/{dunst}
+rm -rf ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.fluxbox ~/.config/{redshift.conf,dunst,rofi,volumeicon,nitrogen} ~/.cache/{dunst,rofi}
 ```
 
