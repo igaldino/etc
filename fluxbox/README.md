@@ -23,6 +23,6 @@ ln -sf ~/etc/dunstrc-numix ~/.config/dunst/dunstrc
 # Uninstall
 ```
 sudo dnf history undo ...
-rm -rf .gtkrc-2.0 .config/gtk-3.0/settings.ini .fluxbox .config/{redshift.conf,dunst} .cache/{dunst}
+rm -rf ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.fluxbox ~/.config/{redshift.conf,dunst,volumeicon,nitrogen} ~/.cache/{dunst}
 ```
 

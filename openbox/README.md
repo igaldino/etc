@@ -24,6 +24,6 @@ ln -sf ~/etc/rofi.config-numix ~/.config/rofi/config
 # Uninstall
 ```
 sudo dnf history undo ...
-rm -rf .gtkrc-2.0 .config/gtk-3.0/settings.ini ~/.Xdefaults .config/{redshift.conf,openbox,tint2,dunst,rofi} .cache/{openbox,tint2,dunst,rofi}
+rm -rf ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.config/{redshift.conf,openbox,tint2,dunst,rofi,volumeicon,nitrogen} ~/.cache/{openbox,tint2,dunst,rofi}
 ```
 
