@@ -1,6 +1,6 @@
 # etc
 ```
-sudo dnf install lightdm-gtk leafpad lxterminal pcmanfm
+sudo dnf install lightdm-gtk xdg-user-dirs leafpad lxterminal pcmanfm firefox
 ```
 
 # Settings
