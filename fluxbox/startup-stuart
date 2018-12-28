@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Services
+dunst &
+lxpolkit &
+compton -f -c &
+
+# Wallpaper
+xrandr --output Virtual-1 --mode 1366x768
+nitrogen --restore &
+
+# Systray
+nm-applet &
+redshift-gtk &
+volumeicon &
+
+# Lock
+xautolock -locker wm-lock.sh &
+
+# Fluxbox
+exec fluxbox
