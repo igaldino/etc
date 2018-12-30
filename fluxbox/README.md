@@ -1,6 +1,6 @@
 # Install
 ```
-sudo dnf install fluxbox compton nitrogen volumeicon network-manager-applet redshift-gtk python2-gobject i3lock xautolock dunst rofi numix-gtk-theme numix-icon-theme-circle
+sudo dnf install fluxbox compton nitrogen volumeicon network-manager-applet redshift-gtk python2-gobject i3lock xautolock dunst rofi
 ```
 
 # Settings
