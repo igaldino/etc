@@ -7,6 +7,8 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 set t_Co=256
 
 set smartindent
+set expandtab
+set shiftwidth=2
 set number
 colorscheme desert
 :map  :tabnew
