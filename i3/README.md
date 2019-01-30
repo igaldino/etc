@@ -1,6 +1,6 @@
 # Install
 ```
-sudo dnf install i3 compton i3status nitrogen volumeicon network-manager-applet redshift-gtk fontawesome-fonts python2-gobject i3lock xautolock dunst rofi
+sudo dnf install i3 i3status nitrogen volumeicon network-manager-applet redshift-gtk fontawesome-fonts python2-gobject i3lock xautolock dunst rofi
 
 ```
 
