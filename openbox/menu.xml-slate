@@ -20,7 +20,7 @@
   </item>
   <item label="Exit">
     <action name="Execute">
-      <command>wm-exit.py openbox</command>
+      <command>wm-exit.py</command>
     </action>
   </item>
 </menu>
