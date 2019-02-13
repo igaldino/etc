@@ -1,6 +1,6 @@
 # Install
 ```
-sudo dnf install openbox compton obconf nitrogen tint2 volumeicon network-manager-applet redshift-gtk python2-gobject i3lock xautolock xdotool dunst rofi
+sudo dnf install openbox obconf nitrogen tint2 volumeicon network-manager-applet redshift-gtk python2-gobject i3lock xautolock xdotool dunst rofi
 ```
 
 # Settings

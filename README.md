@@ -1,6 +1,6 @@
 # etc
 ```
-sudo dnf install lightdm-gtk lxpolkit xdg-user-dirs leafpad lxterminal pcmanfm firefox numix-gtk-theme numix-icon-theme-circle
+sudo dnf install lightdm-gtk lxpolkit xdg-user-dirs compton leafpad lxterminal pcmanfm firefox numix-gtk-theme numix-icon-theme-circle
 ```
 
 # Settings
