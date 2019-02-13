@@ -1,6 +1,6 @@
 # Install
 ```
-sudo dnf install i3 i3status nitrogen volumeicon network-manager-applet redshift-gtk fontawesome-fonts python2-gobject i3lock xautolock dunst rofi
+sudo dnf install i3 i3status nitrogen network-manager-applet redshift-gtk fontawesome-fonts python2-gobject i3lock xautolock dunst rofi
 
 ```
 
@@ -21,6 +21,6 @@ ln -sf ~/etc/rofi.config-numix ~/.config/rofi/config
 # Uninstall
 ```
 sudo dnf history undo ...
-rm -rf ~/.config/{redshift.conf,dunst,rofi,volumeicon,nitrogen} ~/.cache/{dunst,rofi3.druncache,rofi-3.runcache,i3lock.png} ~/.config/{i3,i3status}
+rm -rf ~/.config/{redshift.conf,dunst,rofi,nitrogen} ~/.cache/{dunst,rofi3.druncache,rofi-3.runcache,i3lock.png} ~/.config/{i3,i3status}
 ```
 
