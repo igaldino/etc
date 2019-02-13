@@ -167,6 +167,7 @@ bar {
 
 exec --no-startup-id dunst
 exec --no-startup-id lxpolkit
+exec --no-startup-id compton -f
 exec --no-startup-id nm-applet
 exec --no-startup-id volumeicon
 exec --no-startup-id nitrogen --restore
