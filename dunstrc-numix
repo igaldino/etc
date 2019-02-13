@@ -11,7 +11,7 @@
     ignore_newline = no
     geometry = "400x10-10-40"
     shrink = yes
-    transparency = 0
+    transparency = 20
     idle_threshold = 120
     monitor = 0
     follow = mouse
@@ -39,16 +39,16 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#151515"
-    foreground = "#FFFFFF"
+    background = "#2d2d2d"
+    foreground = "#888888"
     timeout = 5
 
 [urgency_normal]
-    background = "#151515"
-    foreground = "#FFFFFF"
+    background = "#2d2d2d"
+    foreground = "#dedede"
     timeout = 10
 
 [urgency_critical]
-    background = "#790000"
-    foreground = "#FFFFFF"
+    background = "#2d2d2d"
+    foreground = "#ffffff"
     timeout = 0
