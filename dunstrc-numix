@@ -1,5 +1,5 @@
  [global]
-    font = "Cantarell 11"
+    font = "Cantarell 8"
     markup = yes
     format = "<b>%a</b>\n%s\n<i>%b</i>\n%p"
     sort = yes
@@ -28,6 +28,7 @@
     browser = /usr/bin/google-chrome
     icon_position = left
     icon_path = /usr/share/icons/Numix/48/status:/usr/share/icons/Numix/48/devices:/usr/share/icons/Numix/48/emblems
+    max_icon_size = 64
     frame_width = 2
     frame_color = "#202020"
 
