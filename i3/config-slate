@@ -1,5 +1,7 @@
+# mod key
 set $mod Mod4
 
+# font
 font pango:Cantarell 11
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -102,10 +104,11 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # colors
-client.focused #d64937 #d64937 #2d2d2d
-client.unfocused #333333 #333333 #dedede
-client.focused_inactive #333333 #333333 #dedede
-client.urgent #383a3b #383a3b #ee0000
+#                        border  bg      fg      indic.  child_border
+client.focused           #f6f5f4 #f6f5f4 #241f31 #33d17a #f6f5f4
+client.focused_inactive  #deddda #deddda #9a9996 #33d17a #deddda
+client.unfocused         #deddda #deddda #9a9996 #33d17a #deddda
+client.urgent            #e01b24 #e01b24 #ffffff #33d17a #e01b24
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -116,9 +119,9 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "wm-exit.py"
 
 # sound
-bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+ unmute
-bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute
-bindsym XF86AudioMute exec amixer -q set Master toggle
+bindsym XF86AudioRaiseVolume exec "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%"
+bindsym XF86AudioLowerVolume exec "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
+bindsym XF86AudioMute exec "pactl set-sink-mute 0 toggle"
 
 # lock
 bindsym $mod+x exec "wm-lock.sh"
@@ -154,28 +157,28 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        position top
-        font pango:DejaVu Sans Mono 10
+        font pango:Inconsolata 11
         status_command i3status
 
         colors {
-                background #2d2d2d
-                statusline #dedede
-                separator #2d2d2d
+                background #000000
+                statusline #f6f5f4
+                separator #9a9996
 
-                focused_workspace  #d64937 #d64937 #2d2d2d
-                active_workspace   #2d2d2d #5f676a #dedede
-                inactive_workspace #2d2d2d #2d2d2d #888888
-                urgent_workspace   #333333 #900000 #ffffff
+                #                  border  bg      fg
+                focused_workspace  #000000 #f6f5f4 #241f31
+                active_workspace   #000000 #deddda #9a9996
+                inactive_workspace #000000 #000000 #9a9996
+                urgent_workspace   #000000 #e01b24 #ffffff
         }
 }
 
 exec --no-startup-id dunst
 exec --no-startup-id lxpolkit
-exec --no-startup-id compton -f
+exec --no-startup-id compton -f -c
 exec --no-startup-id setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:win_space_toggle"
 exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id redshift-gtk
+exec --no-startup-id redshift
 exec --no-startup-id slack
 exec --no-startup-id xautolock -locker wm-lock.sh
