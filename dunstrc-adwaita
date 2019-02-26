@@ -1,0 +1,54 @@
+ [global]
+    font = "Cantarell 11"
+    markup = yes
+    format = "<b>%a</b>\n%s\n<i>%b</i>\n%p"
+    sort = yes
+    indicate_hidden = yes
+    alignment = center
+    bounce_freq = 0
+    show_age_threshold = 60
+    word_wrap = yes
+    ignore_newline = no
+    geometry = "400x10-10-40"
+    shrink = yes
+    transparency = 20
+    idle_threshold = 120
+    monitor = 0
+    follow = mouse
+    sticky_history = yes
+    history_length = 20
+    show_indicators = yes
+    line_height = 0
+    separator_height = 1
+    padding = 8
+    horizontal_padding = 8
+    separator_color = "#505050"
+    startup_notification = false
+    dmenu = /usr/bin/rofi
+    browser = /usr/bin/google-chrome
+    icon_position = left
+    icon_path = /usr/share/icons/Adwaita/48/status:/usr/share/icons/Adwaita/48/devices:/usr/share/icons/Adwaita/48/emblems
+    max_icon_size = 48
+    frame_width = 2
+    frame_color = "#000000"
+
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+    history = ctrl+apostrophe
+    context = ctrl+shift+period
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#9a9996"
+    timeout = 5
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#9a9996"
+    timeout = 10
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#ffffff"
+    timeout = 0
