@@ -1,6 +1,6 @@
 # Install
 ```
-sudo dnf install i3 i3status nitrogen network-manager-applet redshift-gtk fontawesome-fonts python2-gobject i3lock xautolock dunst rofi
+sudo dnf install i3 i3status nitrogen network-manager-applet redshift fontawesome-fonts python2-gobject i3lock xautolock dunst rofi
 
 ```
 
@@ -14,8 +14,8 @@ mkdir -p ~/.config/rofi
 ln -sf ~/etc/redshift-sao-paulo.conf ~/.config/redshift.conf
 ln -sf ~/etc/i3/config-`hostname -s` ~/.config/i3/config
 ln -sf ~/etc/i3/i3status.conf-`hostname -s` ~/.config/i3status/config
-ln -sf ~/etc/dunstrc-numix ~/.config/dunst/dunstrc
-ln -sf ~/etc/rofi.config-numix ~/.config/rofi/config
+ln -sf ~/etc/dunstrc-adwaita ~/.config/dunst/dunstrc
+ln -sf ~/etc/rofi.config-adwaita ~/.config/rofi/config
 ```
 
 # Uninstall
