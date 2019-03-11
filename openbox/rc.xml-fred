@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc-Darker</name>
+    <name>Numix</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -264,6 +264,12 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
+    <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
+    <keybind key="A-Print">
+      <action name="Execute">
+        <command>scrot -s</command>
+      </action>
+    </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="W-Tab">
       <action name="NextWindow">
@@ -338,8 +344,8 @@
       <action name="ShowMenu">
         <menu>root-menu</menu>
         <position>
-          <x>0</x>
-          <y>-32</y>
+          <x>center</x>
+          <y>center</y>
         </position>
       </action>
     </keybind>
@@ -352,8 +358,14 @@
         <command>rofi -show drun</command>
       </action>
     </keybind>
+    <!-- Launch scrot when Print is pressed -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>scrot</command>
+      </action>
+    </keybind>
     <!-- Keybindings for screen lock -->
-    <keybind key="W-l">
+    <keybind key="W-x">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
