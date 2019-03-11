@@ -1,8 +1,7 @@
-dunst &
-lxpolkit &
-compton -f -c &
-nm-applet &
 nitrogen --restore &
-tint2 &
+dunst &
 redshift &
-xautolock -locker wm-lock.sh &
+compton -f -c &
+tint2 &
+nm-applet &
+sleep 10 && volumeicon &
