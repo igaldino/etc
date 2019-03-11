@@ -1,5 +1,5 @@
  [global]
-    font = "Cantarell 11"
+    font = "Noto Sans 9"
     markup = yes
     format = "<b>%a</b>\n%s\n<i>%b</i>\n%p"
     sort = yes
@@ -22,10 +22,10 @@
     separator_height = 1
     padding = 8
     horizontal_padding = 8
-    separator_color = "#505050"
+    separator_color = "#202020"
     startup_notification = false
     dmenu = /usr/bin/rofi
-    browser = /usr/bin/google-chrome
+    browser = /usr/bin/firefox
     icon_position = left
     icon_path = /usr/share/icons/Numix/48/status:/usr/share/icons/Numix/48/devices:/usr/share/icons/Numix/48/emblems
     max_icon_size = 48

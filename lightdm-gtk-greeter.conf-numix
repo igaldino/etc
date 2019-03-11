@@ -5,6 +5,6 @@
 #background = /usr/share/wallpapers/DebianTheme/contents/images/1920x1080.svg
 #background = /usr/share/wallpapers/JoyInksplat/contents/images/1920x1080.svg
 theme-name = Numix
-icon-theme-name = Numix-Circle
-font-name = Cantarell 11
+icon-theme-name = Numix
+font-name = Noto Sans 9
 

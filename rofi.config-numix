@@ -1,5 +1,5 @@
 rofi.modi: window,drun,run
-rofi.font: Cantarell 11
+rofi.font: Noto Sans 9
 rofi.show-icons: true
 rofi.color-normal: #2d2d2d, #dcdcdc, #2d2d2d, #d64937, #ffffff
 rofi.color-urgent: #2d2d2d, #dcdcdc, #2d2d2d, #d64937, #ffffff
