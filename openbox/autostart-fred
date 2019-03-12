@@ -1,7 +1,8 @@
-nitrogen --restore &
 dunst &
-redshift &
+lxpolkit &
 compton -f -c &
-tint2 &
 nm-applet &
+nitrogen --restore &
+tint2 &
+redshift &
 sleep 10 && volumeicon &
