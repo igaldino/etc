@@ -1,6 +1,8 @@
 #!/bin/sh
 
 # Services
+xfce4-power-manager &
+pulseaudio &
 dunst &
 lxpolkit &
 compton -f -c &
@@ -10,11 +12,11 @@ nitrogen --restore &
 
 # Systray
 nm-applet &
-redshift-gtk &
-volumeicon &
+redshift &
+sleep 10 && volumeicon &
 
 # Lock
-xautolock -locker wm-lock.sh &
+xautolock -time 30 -corners 000- -locker wm-lock.sh &
 
 # Fluxbox
 exec fluxbox

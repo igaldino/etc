@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Services
+pulseaudio &
 dunst &
 lxpolkit &
 compton -f -c &
@@ -11,11 +12,8 @@ nitrogen --restore &
 
 # Systray
 nm-applet &
-redshift-gtk &
-volumeicon &
-
-# Lock
-xautolock -locker wm-lock.sh &
+redshift &
+sleep 10 && volumeicon &
 
 # Fluxbox
 exec fluxbox
