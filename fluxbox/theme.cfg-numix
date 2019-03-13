@@ -5,7 +5,7 @@
 *.textColor: #eeeeee
 *.bevelWidth: 1
 *.borderWidth: 0
-*.handleWidth: 0
+*.handleWidth: 2
 
 # Menu
 
