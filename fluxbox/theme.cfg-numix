@@ -21,7 +21,9 @@ menu.hilite.textColor: #ffffff
 # Toolbar
 
 toolbar: flat
-toolbar.button.picColor: #f06860
+toolbar.button.picColor: #eeeeee
+toolbar.button.pressed: flat
+toolbar.button.pressed.color: #f06860
 toolbar.iconbar.focused.color: #f06860
 toolbar.iconbar.focused.textColor: #ffffff
 toolbar.iconbar.*.justify: left
@@ -35,5 +37,7 @@ window.label.unfocus.color: #444444
 window.label.unfocus.textColor: #888888
 window.button.unfocus.color: #444444
 window.button.unfocus.picColor: #888888
+window.button.pressed: flat
+window.button.pressed.color: #f06860
 window.handle.unfocus.color: #444444
 window.grip.unfocus.color: #444444
