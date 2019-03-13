@@ -5,6 +5,7 @@ In order to make it work, you will need:
 * LxPolkit
 * Compton
 * Numix GTK and Icon Theme
+* Noto Sans and Mono Fonts
 * Nitrogen
 * Volume Icon
 * Network Manager Applet
