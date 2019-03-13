@@ -1,19 +1,19 @@
-[begin] (Fedora)
+[begin] (isaque@stuart)
 [encoding] {UTF-8}
-  [exec] (Browser) {firefox}
+  [exec] (Firefox) {firefox}
   [exec] (Arquivos) {pcmanfm}
   [exec] (Editor) {leafpad}
   [exec] (Terminal) {lxterminal}
-  [include] (~/.fluxbox/app-menu)
-  [workspaces] (Espaços de trabalho)
+  [exec] (Aplicações...) {rofi -show drun}
   [exec] (Comando...) {fbrun}
   [separator]
+  [workspaces] (Espaços de Trabalho)
   [config] (Configuração)
   [submenu] (Estilos)
     [stylesdir] (/usr/share/fluxbox/styles)
     [stylesdir] (~/.fluxbox/styles)
   [end]
-  [exec] (Recriar menu) {~/bin/fluxbox-xdg-menu --submenu --file=~/.fluxbox/app-menu}
+  [exec] (Papéis de Parede) {nitrogen}
   [restart] (Reiniciar)
   [separator]
   [exec] (Sobre) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
