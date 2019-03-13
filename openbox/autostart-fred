@@ -6,3 +6,4 @@ nitrogen --restore &
 tint2 &
 redshift &
 sleep 10 && volumeicon &
+xautolock -time 30 -corners 000- -locker wm-lock.sh &

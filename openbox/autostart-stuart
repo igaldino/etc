@@ -4,5 +4,6 @@ compton -f -c &
 nm-applet &
 nitrogen --restore &
 tint2 &
-redshift-gtk &
-xautolock -locker wm-lock.sh &
+redshift &
+sleep 10 && volumeicon &
+
