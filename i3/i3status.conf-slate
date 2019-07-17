@@ -8,9 +8,6 @@
 
 general {
         colors = true
-        color_good = "#33d17a"
-        color_bad = "#e01b24"
-        color_degraded = "#f6d32d"
         interval = 5
 }
 
@@ -20,18 +17,63 @@ order += "disk /"
 order += "disk /home"
 order += "wireless _first_"
 order += "ethernet _first_"
+order += "path_exists VPN"
+order += "ipv6"
 order += "volume master"
 order += "battery all"
 order += "tztime local"
 
+cpu_usage {
+	format = " %usage"
+	max_threshold = 75
+	degraded_threshold = 25
+}
+
+load {
+	format = " %1min %5min %15min"
+}
+
+disk "/" {
+	format = " %avail"
+	prefix_type = custom
+	low_threshold = 5
+	threshold_type = percentage_free
+}
+
+disk "/home" {
+	format = " %avail"
+	prefix_type = custom
+	low_threshold = 5
+	threshold_type = percentage_free
+}
+
 wireless _first_ {
-        format_up = " %quality %essid %ip"
-        format_down = " down"
+	format_up = " %quality %essid %ip"
+	format_down = ""
 }
 
 ethernet _first_ {
         format_up = " %ip"
-        format_down = " down"
+        format_down = ""
+}
+
+path_exists VPN {
+	format = "VPN"
+	format_down = "VPN"
+	path = "/proc/sys/net/ipv4/conf/tun0"
+}
+
+ipv6 {
+	format_up = "IPV6: %ip"
+	format_down = "IPV6"
+}
+
+volume master {
+        format = " %volume"
+        format_muted = " (%volume)"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
 }
 
 battery all {
@@ -47,36 +89,5 @@ battery all {
 
 tztime local {
         format = " %d/%m/%Y %H:%M"
-}
-
-load {
-        format = " %1min %5min %15min"
-}
-
-cpu_usage {
-        format = " %usage"
-        max_threshold = 75
-        degraded_threshold = 25
-}
-
-disk "/" {
-        format = " %avail"
-        prefix_type = custom
-        low_threshold = 5
-        threshold_type = percentage_free
-}
-
-disk "/home" {
-        format = " %avail"
-        prefix_type = custom
-        low_threshold = 5
-        threshold_type = percentage_free
-}
-volume master {
-        format = " %volume"
-        format_muted = " (%volume)"
-        device = "default"
-        mixer = "Master"
-        mixer_idx = 0
 }
 
