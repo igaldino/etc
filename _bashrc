@@ -16,4 +16,9 @@ if [ -f `which powerline-daemon` ]; then
   . /usr/share/powerline/bash/powerline.sh
 fi
 
+# Source DSWDOWN definitions
+if [ -f ~/bin/dswd_envs.sh ]; then
+	. ~/bin/dswd_envs.sh
+fi
+
 set -o vi
