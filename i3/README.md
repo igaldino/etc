@@ -1,21 +1,23 @@
 # Install
 
-Software List:
+Software list:
 * i3
 * i3Status
-* Awesome Fonts
+
+## Fedora
+```
+sudo dnf install -y i3 i3status
+```
 
 # Settings
 ```
 mkdir -p ~/.config/i3
 mkdir -p ~/.config/i3status
-
 ln -sf ~/etc/i3/config-`hostname -s` ~/.config/i3/config
 ln -sf ~/etc/i3/i3status.conf-`hostname -s` ~/.config/i3status/config
 ```
 
-# Uninstall
+## Cleaning
 ```
-sudo dnf history undo ...
 rm -rf ~/.config/{i3,i3status}
 ```
