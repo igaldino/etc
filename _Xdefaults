@@ -1,8 +1,8 @@
 *.multiClickTime:       750
 
-XTerm*faceName:         xft:Inconsolata:size=11:antialias=true
+XTerm*faceName:         xft:Noto\ Sans\ Mono:size=10:antialias=true:hinting=true
 
-Rxvt*font:              xft:Inconsolata:size=11
+Rxvt*font:              xft:Noto\ Sans\ Mono:size=10:antialias=true:hinting=true
 Rxvt*depth:             32
 Rxvt*scrollBar:         false
 
@@ -22,12 +22,12 @@ Rxvt*scrollBar:         false
 !*color10:               #dedede
 
 ! yellow dark/light
-*color3:                #dedede
-*color11:               #dedede
+!*color3:                #dedede
+!*color11:               #dedede
 
 ! blue dark/light
-*color4:                #d64937
-*color12:               #d64937
+!*color4:                #d64937
+!*color12:               #d64937
 
 ! magenta dark/light
 !*color5:                #dedede
