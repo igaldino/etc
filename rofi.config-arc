@@ -1,13 +1,13 @@
 rofi.modi: window,drun,run
-rofi.font: Noto Sans 9
+rofi.font: Noto Mono 10
 rofi.show-icons: true
 rofi.separator-style: solid
 
 !                  ´bg´,      ´fg´,    ´bgalt´,   ´hlbg´,    ´hlfg´
-rofi.color-normal: #90ffffff, #525d76, #90ffffff, #905294e2, #ffffff
-rofi.color-urgent: #90ffffff, #dc322f, #90ffffff, #905294e2, #dc322f
-rofi.color-active: #90ffffff, #c2cad0, #90ffffff, #905294e2, #c2cad0
+rofi.color-normal: #90000000, #ffffff, #90000000, #90285577, #ffffff
+rofi.color-urgent: #90000000, #e01b24, #90000000, #90285577, #e01b24
+rofi.color-active: #90000000, #33d17a, #90000000, #90285577, #33d17a
 
 !                  ´bg´,      ´border´,  ´separator´
-rofi.color-window: #90ffffff, #90ffffff, #90ffffff
+rofi.color-window: #90000000, #904c7899, #904c7899
 
