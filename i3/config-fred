@@ -2,17 +2,19 @@
 set $mod Mod4
 
 # font
-font pango:Noto Sans 9
+font pango:Noto Sans 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+# start a terminal
+bindsym $mod+Return exec lxterminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start applications
-bindsym $mod+Return exec lxterminal
-bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+d exec rofi -show drun
 
 # change focus
 bindsym $mod+j focus left
@@ -80,35 +82,28 @@ set $ws9 "9 "
 set $ws10 "A "
 
 # switch to workspace
-bindsym $mod+1 workspace $ws1
-bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace $ws3
-bindsym $mod+4 workspace $ws4
-bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
-bindsym $mod+0 workspace $ws10
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace $ws1
-bindsym $mod+Shift+2 move container to workspace $ws2
-bindsym $mod+Shift+3 move container to workspace $ws3
-bindsym $mod+Shift+4 move container to workspace $ws4
-bindsym $mod+Shift+5 move container to workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
-bindsym $mod+Shift+0 move container to workspace $ws10
-
-# colors
-#                        border  bg      fg      indic.  child_border
-client.focused           #f6f5f4 #f6f5f4 #241f31 #33d17a #f6f5f4
-client.focused_inactive  #deddda #deddda #9a9996 #33d17a #deddda
-client.unfocused         #deddda #deddda #9a9996 #33d17a #deddda
-client.urgent            #e01b24 #e01b24 #ffffff #33d17a #e01b24
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -117,14 +112,6 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 bindsym $mod+Shift+e exec "wm-exit.py"
-
-# sound
-bindsym XF86AudioRaiseVolume exec "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%"
-bindsym XF86AudioLowerVolume exec "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
-bindsym XF86AudioMute exec "pactl set-sink-mute 0 toggle"
-
-# media
-bindsym XF86AudioPlay exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
 
 # lock
 bindsym $mod+x exec "wm-lock.sh"
@@ -162,37 +149,31 @@ bindsym $mod+r mode "resize"
 bar {
         font pango:Noto Sans Mono 10
         status_command i3status
-
-        colors {
-                background #000000
-                statusline #f6f5f4
-                separator #9a9996
-
-                #                  border  bg      fg
-                focused_workspace  #000000 #f6f5f4 #241f31
-                active_workspace   #000000 #deddda #9a9996
-                inactive_workspace #000000 #000000 #9a9996
-                urgent_workspace   #000000 #e01b24 #ffffff
-        }
 }
 
-assign [class="Lxterminal"] $ws1
-assign [class="Meld"]       $ws2
-assign [class="RationalAD"] $ws2
-assign [class="Builder"]    $ws2
-assign [class="Firefox"]    $ws3
-assign [class="Slack"]      $ws4
-assign [class="Pcmanfm"]    $ws6
-assign [class="Spotify"]    $ws9
-assign [class="Steam"]      $ws10
+assign [class="Gnome-terminal"]     $ws1
+assign [class="Lxterminal"]         $ws1
+assign [class="Tilix"]              $ws1
+assign [class="URxvt"]              $ws1
+assign [class="Meld"]               $ws2
+assign [class="RationalAD"]         $ws2
+assign [class="Builder"]            $ws2
+assign [class="Firefox"]            $ws3
+assign [class="Google-chrome"]      $ws3
+assign [class="Slack"]              $ws4
+assign [class="Pcmanfm"]            $ws6
+assign [class="Org.gnome.Nautilus"] $ws6
+assign [class="Spotify"]            $ws9
+assign [class="Steam"]              $ws10
 
-exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pulseaudio
 exec --no-startup-id dunst
 exec --no-startup-id lxpolkit
 exec --no-startup-id compton -f -c
+exec --no-startup-id setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:shift_caps_toggle"
 exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id redshift
+exec --no-startup-id redshift-gtk
+exec --no-startup-id slack
 exec --no-startup-id sleep 10 && volumeicon
 exec --no-startup-id xautolock -time 30 -corners 000- -locker wm-lock.sh
