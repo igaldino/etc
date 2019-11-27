@@ -8,30 +8,15 @@
 
 general {
         colors = true
-        color_good = "#33d17a"
-        color_bad = "#e01b24"
-        color_degraded = "#f6d32d"
         interval = 5
 }
 
 order += "cpu_usage"
 order += "load"
 order += "disk /"
-order += "wireless _first_"
-order += "ethernet _first_"
-order += "volume master"
+order += "disk /home"
 order += "battery all"
 order += "tztime local"
-
-wireless _first_ {
-        format_up = " %quality %essid %ip"
-        format_down = " down"
-}
-
-ethernet _first_ {
-        format_up = " %ip"
-        format_down = " down"
-}
 
 battery all {
         format = "%status %percentage %remaining"
@@ -42,14 +27,6 @@ battery all {
         last_full_capacity = true
         integer_battery_capacity = true
         hide_seconds = true
-}
-
-tztime local {
-        format = " %d/%m/%Y %H:%M"
-}
-
-load {
-        format = " %1min %5min %15min"
 }
 
 cpu_usage {
@@ -65,11 +42,18 @@ disk "/" {
         threshold_type = percentage_free
 }
 
-volume master {
-        format = " %volume"
-        format_muted = " (%volume)"
-        device = "default"
-        mixer = "Master"
-        mixer_idx = 0
+disk "/home" {
+        format = " %avail"
+        prefix_type = custom
+        low_threshold = 5
+        threshold_type = percentage_free
+}
+
+load {
+        format = " %1min %5min %15min"
+}
+
+tztime local {
+        format = " %d/%m/%Y %H:%M"
 }
 
