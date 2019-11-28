@@ -151,22 +151,21 @@ bar {
         status_command i3status
 }
 
-assign [class="Gnome-terminal"]     $ws1
-assign [class="Lxterminal"]         $ws1
-assign [class="Tilix"]              $ws1
-assign [class="URxvt"]              $ws1
-assign [class="Meld"]               $ws2
-assign [class="RationalAD"]         $ws2
-assign [class="Builder"]            $ws2
-assign [class="Firefox"]            $ws3
-assign [class="Google-chrome"]      $ws3
-assign [class="Slack"]              $ws4
-assign [class="Pcmanfm"]            $ws6
-assign [class="Org.gnome.Nautilus"] $ws6
-assign [class="Spotify"]            $ws9
-assign [class="Steam"]              $ws10
+#assign [class="Gnome-terminal"]     $ws1
+#assign [class="Lxterminal"]         $ws1
+#assign [class="Tilix"]              $ws1
+#assign [class="URxvt"]              $ws1
+#assign [class="Meld"]               $ws2
+#assign [class="RationalAD"]         $ws2
+#assign [class="Builder"]            $ws2
+#assign [class="Firefox"]            $ws3
+#assign [class="Google-chrome"]      $ws3
+#assign [class="Slack"]              $ws4
+#assign [class="Pcmanfm"]            $ws6
+#assign [class="Org.gnome.Nautilus"] $ws6
+#assign [class="Spotify"]            $ws9
+#assign [class="Steam"]              $ws10
 
-exec --no-startup-id pulseaudio
 exec --no-startup-id dunst
 exec --no-startup-id lxpolkit
 exec --no-startup-id compton -f -c
@@ -175,5 +174,5 @@ exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id redshift-gtk
 exec --no-startup-id slack
-exec --no-startup-id sleep 10 && volumeicon
+exec --no-startup-id volumeicon
 exec --no-startup-id xautolock -time 30 -corners 000- -locker wm-lock.sh
