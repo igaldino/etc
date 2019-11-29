@@ -16,6 +16,7 @@ order += "load"
 order += "disk /"
 order += "disk /home"
 order += "battery all"
+order += "volume master"
 order += "tztime local"
 
 battery all {
@@ -51,6 +52,14 @@ disk "/home" {
 
 load {
         format = " %1min %5min %15min"
+}
+
+volume master {
+        format = " %volume"
+        format_muted = " (%volume)"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
 }
 
 tztime local {
