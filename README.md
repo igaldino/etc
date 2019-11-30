@@ -1,23 +1,13 @@
 # Install
 
-Software list:
-* Lightdm
-* LxPolkit
-* Compton
-* Numix GTK and Icon Theme
-* Noto Sans and Mono Fonts
-* Nitrogen
-* Volume Icon
-* Network Manager Applet
-* Redshift
-* i3Lock
-* XAutoLock
-* Dunst
-* Rofi
+## Debian
+```
+sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxpolkit compton blueman pasystray network-manager-gnome pavucontrol i3lock xautolock dunst rofi lxappearance lxterminal mousepad pcmanfm nitrogen redshift-gtk caffeine package-update-indicator fonts-ubuntu fonts-font-awesome arc-theme papirus-icon-theme
+```
 
 ## Fedora
 ```
-sudo dnf install -y lightdm-gtk lxpolkit xdg-user-dirs compton nitrogen volumeicon network-manager-applet redshift-gtk python2-gobject i3lock xautolock dunst rofi leafpad lxterminal pcmanfm firefox google-noto-sans-fonts google-noto-sans-mono-fonts fontawesome-fonts numix-gtk-theme numix-icon-theme
+sudo dnf install -y lightdm-gtk lightdm-gtk-greeter-settings lxpolkit compton blueman pasystray network-manager-applet pavucontrol i3lock xautolock python2-gobject dunst rofi lxappearance lxterminal leafpad pcmanfm nitrogen redshift-gtk google-noto-sans-fonts google-noto-sans-mono-fonts fontawesome-fonts arc-theme papirus-icon-theme
 ```
 
 # Settings

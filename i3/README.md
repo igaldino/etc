@@ -1,8 +1,9 @@
 # Install
 
-Software list:
-* i3
-* i3Status
+## Debian
+```
+sudo apt install -y i3-wm i3status
+```
 
 ## Fedora
 ```
