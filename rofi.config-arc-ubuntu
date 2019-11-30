@@ -1,0 +1,13 @@
+rofi.modi: window,drun,run
+rofi.font: Ubuntu 10
+rofi.show-icons: true
+rofi.separator-style: solid
+
+!                  ´bg´,      ´fg´,    ´bgalt´,   ´hlbg´,    ´hlfg´
+rofi.color-normal: #90000000, #ffffff, #90000000, #90285577, #ffffff
+rofi.color-urgent: #90000000, #e01b24, #90000000, #90285577, #e01b24
+rofi.color-active: #90000000, #33d17a, #90000000, #90285577, #33d17a
+
+!                  ´bg´,      ´border´,  ´separator´
+rofi.color-window: #90000000, #904c7899, #904c7899
+
