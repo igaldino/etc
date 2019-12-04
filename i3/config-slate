@@ -110,7 +110,11 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "wm-exit.py"
+bindsym $mod+Shift+e exec "~/bin/wm-exit.py"
+
+# brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 
 # sound
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
@@ -118,7 +122,7 @@ bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 # lock
-bindsym $mod+x exec "wm-lock.sh"
+bindsym $mod+x exec "~/bin/wm-lock.sh"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -180,4 +184,4 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id redshift-gtk
 exec --no-startup-id slack
 exec --no-startup-id pasystray
-exec --no-startup-id xautolock -time 30 -corners 000- -locker wm-lock.sh
+exec --no-startup-id xautolock -time 30 -corners 000- -locker ~/bin/wm-lock.sh
