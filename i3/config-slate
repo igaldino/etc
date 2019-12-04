@@ -176,7 +176,7 @@ bar {
 
 exec --no-startup-id dunst
 exec --no-startup-id lxpolkit
-exec --no-startup-id compton -f -c
+exec --no-startup-id compton -f -c --shadow-exclude 'class_g = "Gnome-screenshot"'
 exec --no-startup-id setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:shift_caps_toggle"
 #exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
