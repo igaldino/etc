@@ -1,10 +1,8 @@
 [greeter]
-# Fedora
-#background = /usr/share/backgrounds/default.png
-# Debian
-#background = /usr/share/wallpapers/DebianTheme/contents/images/1920x1080.svg
-#background = /usr/share/wallpapers/JoyInksplat/contents/images/1920x1080.svg
+font-name = Cantarell 10
+
 theme-name = Adwaita
 icon-theme-name = Adwaita
-font-name = Cantarell 11
 
+indicators=~;~host;~spacer;~clock;~spacer;~session;~power;
+clock-format=%a, %d/%b, %H:%M
