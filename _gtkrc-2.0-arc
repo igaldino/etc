@@ -1,4 +1,9 @@
-gtk-font-name = "Noto Sans 9" 
-gtk-theme-name = "Arc" 
-gtk-icon-theme-name = "Moka" 
-gtk-double-click-time = 750
+gtk-theme-name="Arc-Darker"
+gtk-icon-theme-name="ePapirus"
+gtk-font-name="Noto Sans 10"
+gtk-monospace-font-name="Noto Mono 10"
+gtk-xft-antialias=1
+gtk-xft-hinting=1
+gtk-xft-hintstyle="hintfull"
+gtk-xft-rgba="rgb"
+gtk-double-click-time=750

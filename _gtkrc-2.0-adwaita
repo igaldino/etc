@@ -1,4 +1,9 @@
-gtk-font-name = "Cantarell 11" 
-gtk-theme-name = "Adwaita" 
-gtk-icon-theme-name = "Adwaita" 
-gtk-double-click-time = 750
+gtk-theme-name="Adwaita"
+gtk-icon-theme-name="Adwaita"
+gtk-font-name="Cantarell 11"
+gtk-monospace-font-name="Source Code Pro 10"
+gtk-xft-antialias=1
+gtk-xft-hinting=1
+gtk-xft-hintstyle="hintfull"
+gtk-xft-rgba="rgb"
+gtk-double-click-time=750
