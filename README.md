@@ -7,7 +7,7 @@ sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxp
 
 ## Fedora
 ```
-sudo dnf install -y lightdm-gtk lightdm-gtk-greeter-settings lxpolkit compton blueman pasystray network-manager-applet pavucontrol i3lock xautolock xbacklight python2-gobject dunst rofi lxappearance lxterminal leafpad pcmanfm nitrogen redshift-gtk google-noto-sans-fonts google-noto-sans-mono-fonts fontawesome-fonts arc-theme papirus-icon-theme
+sudo dnf install -y lightdm-gtk lightdm-gtk-greeter-settings lxpolkit compton blueman pasystray network-manager-applet pavucontrol i3lock xautolock brightlight python2-gobject dunst rofi lxappearance lxterminal leafpad pcmanfm nitrogen redshift-gtk google-noto-sans-fonts google-noto-sans-mono-fonts fontawesome-fonts arc-theme papirus-icon-theme
 ```
 
 # Settings
