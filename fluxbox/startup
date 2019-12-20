@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Services
+dunst &
+lxpolkit &
+compton -f -c &
+setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:shift_caps_toggle" &
+slack &
+
+# Systray
+nm-applet &
+redshift-gtk &
+pasystray &
+cbatticon &
+blueman-applet &
+
+# Lock
+xautolock -time 30 -corners 000- -locker wm-lock.sh &
+
+# Wallpaper
+sleep 10 && nitrogen --restore &
+
+# Fluxbox
+exec fluxbox

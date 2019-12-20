@@ -1,8 +1,8 @@
-[begin] (isaque@fred)
+[begin] (Menu)
 [encoding] {UTF-8}
-  [exec] (Firefox) {firefox}
+  [exec] (Web) {google-chrome}
   [exec] (Arquivos) {pcmanfm}
-  [exec] (Editor) {leafpad}
+  [exec] (Editor) {mousepad}
   [exec] (Terminal) {lxterminal}
   [exec] (Aplicações...) {rofi -show drun}
   [exec] (Comando...) {fbrun}
