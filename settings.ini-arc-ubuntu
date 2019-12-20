@@ -2,7 +2,6 @@
 gtk-theme-name=Arc-Darker
 gtk-icon-theme-name=ePapirus
 gtk-font-name=Ubuntu 10
-gtk-monospace-font-name=Ubuntu Mono 10
 gtk-xft-antialias=1
 gtk-xft-hinting=1
 gtk-xft-hintstyle=hintfull
