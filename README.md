@@ -2,7 +2,7 @@
 
 ## Debian
 ```
-sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxpolkit compton blueman pasystray network-manager-gnome pavucontrol i3lock xautolock xbacklight python-gobject dunst rofi lxappearance lxterminal mousepad pcmanfm nitrogen redshift-gtk caffeine package-update-indicator fonts-ubuntu fonts-font-awesome arc-theme papirus-icon-theme
+sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxpolkit compton blueman pasystray network-manager-gnome cbatticon pavucontrol i3lock xautolock xbacklight python-gobject dunst rofi lxappearance lxterminal mousepad pcmanfm nitrogen redshift-gtk caffeine package-update-indicator fonts-ubuntu fonts-font-awesome arc-theme papirus-icon-theme
 ```
 
 ## Fedora
