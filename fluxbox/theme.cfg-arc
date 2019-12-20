@@ -1,0 +1,44 @@
+*.font: Ubuntu-10
+*.justify: Center
+*.color: #353945
+*.borderColor: #353945
+*.textColor: #d3dae3
+*.bevelWidth: 1
+*.borderWidth: 0
+*.handleWidth: 2
+
+# Menu
+
+menu: flat
+menu.bullet: triangle
+menu.bullet.position: Right
+menu.frame.justify: left
+menu.frame.disableColor: #7c818c
+menu.hilite.justify: left
+menu.hilite.color: #5294e2
+menu.hilite.textColor: #ffffff			
+
+# Toolbar
+
+toolbar: flat
+toolbar.button.picColor: #d3dae3
+toolbar.button.pressed: flat
+toolbar.button.pressed.color: #5294e2
+toolbar.clock.color: #5294e2
+toolbar.clock.textColor: #353945
+toolbar.iconbar.unfocused.textColor: #7c818c
+toolbar.iconbar.*.justify: left
+
+# Window
+
+window: flat
+window.shade: false
+window.title.unfocus.color: #353945
+window.label.unfocus.color: #353945
+window.label.unfocus.textColor: #7c818c
+window.button.unfocus.color: #353945
+window.button.unfocus.picColor: #7c818c
+window.button.pressed: flat
+window.button.pressed.color: #5294e2
+window.handle.unfocus.color: #353945
+window.grip.unfocus.color: #353945
