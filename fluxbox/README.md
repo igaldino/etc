@@ -17,7 +17,7 @@ ln -sf ~/etc/fluxbox/theme.cfg-arc ~/.fluxbox/styles/Arc/theme.cfg
 ln -sf ~/etc/fluxbox/init ~/.fluxbox/init
 ln -sf ~/etc/fluxbox/keys ~/.fluxbox/keys
 ln -sf ~/etc/fluxbox/menu ~/.fluxbox/menu
-ln -sf ~/etc/fluxbox/startup ~/.fluxbox/startup
+ln -sf ~/etc/fluxbox/startup-`hostname -s` ~/.fluxbox/startup
 ```
 
 ## Cleaning
