@@ -73,11 +73,11 @@ bindsym $mod+a focus parent
 set $ws1 "1: "
 set $ws2 "2: "
 set $ws3 "3: "
-set $ws4 "4: "
+set $ws4 "4: "
 set $ws5 "5: "
 set $ws6 "6: "
 set $ws7 "7: "
-set $ws8 "8: "
+set $ws8 "8: "
 set $ws9 "9: "
 set $ws10 "0: "
 
@@ -162,24 +162,21 @@ bar {
         status_command i3status
 }
 
-#assign [class="Gnome-terminal"]     $ws1
-#assign [class="Lxterminal"]         $ws1
-#assign [class="Tilix"]              $ws1
-#assign [class="URxvt"]              $ws1
-#assign [class="Meld"]               $ws2
-#assign [class="RationalAD"]         $ws2
-#assign [class="Builder"]            $ws2
-#assign [class="Firefox"]            $ws3
-#assign [class="Google-chrome"]      $ws3
-#assign [class="Slack"]              $ws4
-#assign [class="Pcmanfm"]            $ws6
-#assign [class="Org.gnome.Nautilus"] $ws6
-#assign [class="Spotify"]            $ws9
-#assign [class="Steam"]              $ws10
+for_window [class="Pavucontrol"] floating enable border normal
+
+assign [class="Builder"]            $ws6
+assign [class="Google-chrome"]      $ws1
+assign [class="Lxterminal"]         $ws7
+assign [class="Meld"]               $ws6
+assign [class="Pcmanfm"]            $ws2
+assign [class="RationalAD"]         $ws6
+assign [class="Slack"]              $ws5
+assign [class="Spotify"]            $ws9
+assign [class="Steam"]              $ws10
 
 exec --no-startup-id dunst
 exec --no-startup-id lxpolkit
-exec --no-startup-id compton -f -c --shadow-exclude 'class_g = "Gnome-screenshot"'
+exec --no-startup-id compton -f -c
 exec --no-startup-id setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:shift_caps_toggle"
 exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
@@ -187,5 +184,4 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id redshift-gtk
 exec --no-startup-id slack
 exec --no-startup-id pasystray
-#exec --no-startup-id package-update-indicator
 exec --no-startup-id xautolock -time 30 -corners 000- -locker ~/bin/wm-lock.sh
