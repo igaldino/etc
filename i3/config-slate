@@ -173,7 +173,7 @@ assign [class="Lxterminal"]         $ws7
 assign [class="Meld"]               $ws6
 assign [class="Pcmanfm"]            $ws2
 assign [class="RationalAD"]         $ws6
-assign [class="Slack"]              $ws5
+assign [class="Slack"]              $ws4
 assign [class="Spotify"]            $ws9
 assign [class="Steam"]              $ws10
 
