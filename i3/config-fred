@@ -1,6 +1,9 @@
 # mod key
 set $mod Mod4
 
+# border
+default_border none
+
 # font
 font pango:Ubuntu 10
 
