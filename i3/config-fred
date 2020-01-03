@@ -2,7 +2,7 @@
 set $mod Mod4
 
 # border
-default_border none
+default_border pixel
 
 # font
 font pango:Ubuntu 10
