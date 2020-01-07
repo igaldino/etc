@@ -1,4 +1,4 @@
-*.font: Noto Sans-10
+*.font: NotoSans-10
 *.justify: left
 *.color: #353945
 *.borderColor: #353945
@@ -12,9 +12,7 @@
 menu: flat
 menu.bullet: triangle
 menu.bullet.position: Right
-menu.frame.justify: left
 menu.frame.disableColor: #7c818c
-menu.hilite.justify: left
 menu.hilite.color: #5294e2
 menu.hilite.textColor: #ffffff			
 
@@ -25,9 +23,11 @@ toolbar.button.picColor: #d3dae3
 toolbar.button.pressed: flat
 toolbar.button.pressed.color: #5294e2
 toolbar.clock.color: #5294e2
-toolbar.clock.textColor: #353945
+toolbar.clock.font: NotoSans-8:bold
+toolbar.clock.justify: center
+toolbar.clock.textColor: #ffffff
 toolbar.iconbar.unfocused.textColor: #7c818c
-toolbar.iconbar.*.justify: left
+toolbar.workspace.font: FontAwesome-10
 
 # Window
 
