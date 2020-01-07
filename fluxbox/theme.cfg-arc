@@ -1,5 +1,5 @@
 *.font: Noto Sans-10
-*.justify: Center
+*.justify: left
 *.color: #353945
 *.borderColor: #353945
 *.textColor: #d3dae3
@@ -36,6 +36,8 @@ window.shade: false
 window.title.unfocus.color: #353945
 window.label.unfocus.color: #353945
 window.label.unfocus.textColor: #7c818c
+window.button.focus.color: #cc575d
+window.button.focus.picColor: #353945
 window.button.unfocus.color: #353945
 window.button.unfocus.picColor: #7c818c
 window.button.pressed: flat
