@@ -11,7 +11,7 @@ slack &
 nm-applet &
 redshift-gtk &
 pasystray &
-battray &
+xfce4-power-manager &
 blueman-applet &
 
 # Lock
