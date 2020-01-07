@@ -1,22 +1,15 @@
 [begin] (Menu)
 [encoding] {UTF-8}
-  [exec] (Web) {google-chrome}
-  [exec] (Arquivos) {pcmanfm}
-  [exec] (Editor) {mousepad}
+  [exec] (Navegador Web) {google-chrome}
+  [exec] (Gerenciador de Arquivos) {pcmanfm}
+  [exec] (Editor de Textos) {mousepad}
   [exec] (Terminal) {lxterminal}
+  [separator]
   [exec] (Aplicações...) {rofi -show drun}
-  [exec] (Comando...) {fbrun}
+  [exec] (Comando...) {rofi -show run}
+  [exec] (Espaços de Trabalho...) {rofi -show window}
+  [exec] (Papéis de Parede...) {nitrogen}
   [separator]
-  [workspaces] (Espaços de Trabalho)
-  [config] (Configuração)
-  [submenu] (Estilos)
-    [stylesdir] (/usr/share/fluxbox/styles)
-    [stylesdir] (~/.fluxbox/styles)
-  [end]
-  [exec] (Papéis de Parede) {nitrogen}
-  [restart] (Reiniciar)
-  [separator]
-  [exec] (Sobre) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
   [exec] (Sair) {~/bin/wm-exit.py}
 [endencoding]
 [end]
