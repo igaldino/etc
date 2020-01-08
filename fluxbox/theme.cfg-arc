@@ -27,7 +27,7 @@ toolbar.clock.font: Ubuntu-8:bold|NotoSans-8:bold
 toolbar.clock.justify: center
 toolbar.clock.textColor: #ffffff
 toolbar.iconbar.unfocused.textColor: #7c818c
-toolbar.workspace.font: FontAwesome-10
+toolbar.workspace.font: FontAwesome-8
 
 # Window
 
