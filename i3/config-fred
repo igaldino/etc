@@ -170,15 +170,15 @@ for_window [class="Pavucontrol"] floating enable border normal
 for_window [class="Nm-connection-editor"] floating enable border normal
 for_window [class="Blueman-manager"] floating enable border normal
 
-assign [class="Builder"]            $ws6
-assign [class="Google-chrome"]      $ws1
-assign [class="Lxterminal"]         $ws7
-assign [class="Meld"]               $ws5
-assign [class="Pcmanfm"]            $ws2
-assign [class="RationalAD"]         $ws6
-assign [class="Slack"]              $ws4
-assign [class="Spotify"]            $ws9
-assign [class="Steam"]              $ws10
+#assign [class="Builder"]            $ws6
+#assign [class="Google-chrome"]      $ws1
+#assign [class="Lxterminal"]         $ws7
+#assign [class="Meld"]               $ws5
+#assign [class="Pcmanfm"]            $ws2
+#assign [class="RationalAD"]         $ws6
+#assign [class="Slack"]              $ws4
+#assign [class="Spotify"]            $ws9
+#assign [class="Steam"]              $ws10
 
 exec --no-startup-id dunst
 exec --no-startup-id lxpolkit
