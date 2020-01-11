@@ -7,7 +7,7 @@
   [separator]
   [exec] (Aplicações...) {rofi -show drun}
   [exec] (Comando...) {rofi -show run}
-  [exec] (Espaços de Trabalho...) {rofi -show window}
+  [exec] (Janelas Abertas...) {rofi -show window}
   [exec] (Papéis de Parede...) {nitrogen}
   [separator]
   [exec] (Sair) {~/bin/wm-exit.py}
