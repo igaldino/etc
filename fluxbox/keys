@@ -67,6 +67,9 @@ Control F10 :Tab 10
 Control F11 :Tab 11
 Control F12 :Tab 12
 
+# open root menu
+Mod4 a :RootMenu
+
 # open a terminal
 Mod4 Return :Exec lxterminal
 Control Mod1 t :Exec lxterminal
