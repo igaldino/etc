@@ -169,6 +169,7 @@ bar {
 for_window [class="Pavucontrol"] floating enable border normal
 for_window [class="Nm-connection-editor"] floating enable border normal
 for_window [class="Blueman-manager"] floating enable border normal
+for_window [class="com-sun-javaws-Main"] floating enable border normal
 
 #assign [class="Builder"]            $ws6
 #assign [class="Google-chrome"]      $ws1
