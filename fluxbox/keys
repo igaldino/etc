@@ -84,8 +84,8 @@ Mod4 d :Exec rofi -show drun
 Mod4 x :Exec ~/bin/wm-lock.sh
 
 # brightness
-XF86MonBrightnessUp :Exec xbacklight -inc 5
-XF86MonBrightnessDown :Exec xbacklight -dec 5
+XF86MonBrightnessUp :Exec ~/bin/brightness.sh inc 5
+XF86MonBrightnessDown :Exec ~/bin/brightness.sh dec 5
 
 # screen capture
 Print :Exec flameshot gui
