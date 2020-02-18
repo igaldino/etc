@@ -1,7 +1,12 @@
 rofi.modi: window,drun,run
-rofi.font: Noto Sans 9
+rofi.font: Ubuntu, Cantarell, Noto Sans 10
 rofi.show-icons: true
+rofi.separator-style: solid
+
+!                  ´bg´,      ´fg´,    ´bgalt´,   ´hlbg´,    ´hlfg´
 rofi.color-normal: #2d2d2d, #dcdcdc, #2d2d2d, #d64937, #ffffff
 rofi.color-urgent: #2d2d2d, #dcdcdc, #2d2d2d, #d64937, #ffffff
 rofi.color-active: #2d2d2d, #dcdcdc, #2d2d2d, #d64937, #ffffff
+
+!                  ´bg´,      ´border´,  ´separator´
 rofi.color-window: #2d2d2d, #2d2d2d, #2d2d2d

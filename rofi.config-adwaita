@@ -1,6 +1,7 @@
 rofi.modi: window,drun,run
-rofi.font: Cantarell 11
+rofi.font: Ubuntu, Cantarell, Noto Sans 10
 rofi.show-icons: true
+rofi.separator-style: solid
 
 !                  ´bg´,      ´fg´,    ´bgalt´,   ´hlbg´,    ´hlfg´
 rofi.color-normal: #90000000, #9a9996, #90000000, #90f6f5f4, #241f31
