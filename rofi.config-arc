@@ -1,5 +1,5 @@
 rofi.modi: window,drun,run
-rofi.font: Noto Mono 10
+rofi.font: Ubuntu, Noto Sans 10
 rofi.show-icons: true
 rofi.separator-style: solid
 
