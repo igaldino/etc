@@ -26,11 +26,11 @@ session.screen0.iconbar.alignment:	Left
 session.screen0.iconbar.iconTextPadding:	10
 session.screen0.iconbar.iconWidth:	200
 session.screen0.iconbar.mode:	{static groups} (workspace)
-session.screen0.iconbar.usePixmap:	false
+session.screen0.iconbar.usePixmap:	true
 session.screen0.maxDisableMove:	false
 session.screen0.maxDisableResize:	false
 session.screen0.maxIgnoreIncrement:	true
-session.screen0.menu.alpha:	255
+session.screen0.menu.alpha:	200
 session.screen0.menuDelay:	200
 session.screen0.noFocusWhileTypingDelay:	0
 session.screen0.opaqueMove:	true
@@ -52,14 +52,14 @@ session.screen0.tabs.usePixmap:	false
 session.screen0.tab.width:	64
 session.screen0.titlebar.left:	
 session.screen0.titlebar.right:	Close 
-session.screen0.toolbar.alpha:	255
+session.screen0.toolbar.alpha:	200
 session.screen0.toolbar.autoHide:	false
 session.screen0.toolbar.height:	0
 session.screen0.toolbar.layer:	Dock
 session.screen0.toolbar.maxOver:	false
 session.screen0.toolbar.onhead:	1
-session.screen0.toolbar.placement:	BottomCenter
-session.screen0.toolbar.tools:	workspacename, iconbar, systemtray, clock
+session.screen0.toolbar.placement:	TopCenter
+session.screen0.toolbar.tools:	iconbar, systemtray, workspacename, clock
 session.screen0.toolbar.visible:	true
 session.screen0.toolbar.widthPercent:	100
 session.screen0.tooltipDelay:	500

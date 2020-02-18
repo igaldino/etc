@@ -1,6 +1,5 @@
 # click on the desktop to get menus
 OnDesktop Mouse1 :HideMenus
-OnDesktop Mouse2 :WorkspaceMenu
 OnDesktop Mouse3 :RootMenu
 
 # scroll on the desktop to change workspaces
@@ -50,8 +49,8 @@ Mod4 ccedilla :FocusRight
 Mod4 semicolon :FocusRight
 
 # cycle through tabs in the current window
-Mod4 Tab :NextTab
-Mod4 Shift Tab :PrevTab
+Mod4 Tab :Exec rofi -show window
+Mod4 Shift Tab :Exec rofi -show window
 
 # go to a specific tab in the current window
 Control F1 :Tab 1
