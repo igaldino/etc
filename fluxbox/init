@@ -37,7 +37,7 @@ session.screen0.opaqueMove:	true
 session.screen0.rowPlacementDirection:	LeftToRight
 session.screen0.showwindowposition:	false
 session.screen0.slit.acceptKdeDockapps:	true
-session.screen0.slit.alpha:	255
+session.screen0.slit.alpha:	230
 session.screen0.slit.autoHide:	false
 session.screen0.slit.layer:	Dock
 session.screen0.slit.maxOver:	false
@@ -61,12 +61,12 @@ session.screen0.toolbar.onhead:	1
 session.screen0.toolbar.placement:	TopCenter
 session.screen0.toolbar.tools:	iconbar, systemtray, workspacename, clock
 session.screen0.toolbar.visible:	true
-session.screen0.toolbar.widthPercent:	100
+session.screen0.toolbar.widthPercent:	99
 session.screen0.tooltipDelay:	500
-session.screen0.window.focus.alpha:	255
+session.screen0.window.focus.alpha:	230
 session.screen0.windowMenu:	/home/isaque/.fluxbox/windowmenu
 session.screen0.windowPlacement:	RowMinOverlapPlacement
-session.screen0.window.unfocus.alpha:	255
+session.screen0.window.unfocus.alpha:	230
 session.screen0.workspaceNames:	, , , , , , , , , ,
 session.screen0.workspaces:	10
 session.screen0.workspacewarping:	true
