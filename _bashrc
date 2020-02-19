@@ -16,6 +16,8 @@ then
     . /home/isaque/sqllib/db2profile
 fi
 
+alias ls='ls --color'
+
 #if [ -f `which powerline-daemon` ]
 #then
 #  powerline-daemon -q
