@@ -1,0 +1,14 @@
+dunst &
+lxpolkit &
+compton -f -c &
+setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:shift_caps_toggle" &
+slack &
+nm-applet &
+redshift-gtk &
+pasystray &
+xfce4-power-manager &
+blueman-applet &
+xautolock -time 30 -corners 000- -locker wm-lock.sh &
+sleep 10 && nitrogen --restore &
+tint2 &
+

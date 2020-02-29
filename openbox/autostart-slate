@@ -1,9 +1,0 @@
-dunst &
-lxpolkit &
-compton -f -c &
-nm-applet &
-nitrogen --restore &
-tint2 &
-redshift-gtk &
-setxkbmap -layout "us,br" -variant "intl,abnt2" -option "grp:win_space_toggle" &
-xautolock -locker wm-lock.sh &

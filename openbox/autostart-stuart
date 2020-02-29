@@ -1,9 +1,0 @@
-dunst &
-lxpolkit &
-compton -f -c &
-nm-applet &
-nitrogen --restore &
-tint2 &
-redshift &
-sleep 10 && volumeicon &
-
