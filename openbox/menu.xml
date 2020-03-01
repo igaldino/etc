@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="root-menu" label="Menu">
+  <separator label="Menu"/>
+  <item label="Navegador Web">
+    <action name="Execute">
+      <execute>google-chrome</execute>
+    </action>
+  </item>
+  <item label="Gerenciador de Arquivos">
+    <action name="Execute">
+      <execute>pcmanfm</execute>
+    </action>
+  </item>
+  <item label="Editor de Textos">
+    <action name="Execute">
+      <execute>mousepad</execute>
+    </action>
+  </item>
+  <item label="Terminal">
+    <action name="Execute">
+      <execute>lxterminal</execute>
+    </action>
+  </item>
+  <separator/>
+  <item label="Aplicações...">
+    <action name="Execute">
+      <execute>rofi -show drun</execute>
+    </action>
+  </item>
+  <item label="Comando...">
+    <action name="Execute">
+      <execute>rofi -show run</execute>
+    </action>
+  </item>
+  <item label="Janelas Abertas...">
+    <action name="Execute">
+      <execute>rofi -show window</execute>
+    </action>
+  </item>
+  <item label="Papéis de Parede...">
+    <action name="Execute">
+      <execute>nitrogen</execute>
+    </action>
+  </item>
+  <separator/>
+  <item label="Sair">
+    <action name="Execute">
+      <execute>~/bin/wm-exit.py</execute>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>
