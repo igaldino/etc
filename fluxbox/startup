@@ -18,7 +18,7 @@ blueman-applet &
 xautolock -time 30 -corners 000- -locker wm-lock.sh &
 
 # Wallpaper
-sleep 10 && nitrogen --restore &
+sleep 5 && nitrogen --restore &
 
 # Fluxbox
 exec fluxbox
