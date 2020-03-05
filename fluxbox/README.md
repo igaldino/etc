@@ -16,6 +16,7 @@ ln -sf ~/etc/fluxbox/theme.cfg-numix ~/.fluxbox/styles/Numix/theme.cfg
 ln -sf ~/etc/fluxbox/init ~/.fluxbox/init
 ln -sf ~/etc/fluxbox/keys ~/.fluxbox/keys
 ln -sf ~/etc/fluxbox/menu ~/.fluxbox/menu
+ln -sf ~/etc/fluxbox/windowmenu ~/.fluxbox/windowmenu
 ln -sf ~/etc/fluxbox/startup ~/.fluxbox/startup
 ```
 
