@@ -67,7 +67,7 @@ session.screen0.window.focus.alpha:	230
 session.screen0.windowMenu:	/home/isaque/.fluxbox/windowmenu
 session.screen0.windowPlacement:	RowMinOverlapPlacement
 session.screen0.window.unfocus.alpha:	230
-session.screen0.workspaceNames:	, , , , , , , , , ,
+session.screen0.workspaceNames:	, , , , , , , , , ,
 session.screen0.workspaces:	10
 session.screen0.workspacewarping:	true
 session.slitlistFile:	/home/isaque/.fluxbox/slitlist
