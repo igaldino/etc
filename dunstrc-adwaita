@@ -1,5 +1,5 @@
  [global]
-    font = "Ubuntu, Cantarell, Noto Sans 10"
+    font = "Ubuntu, Cantarell, Noto Sans 9"
     markup = yes
     format = "<b>%a</b>\n%s\n<i>%b</i>\n%p"
     sort = yes

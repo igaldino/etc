@@ -1,10 +1,10 @@
 [greeter]
 
 # Fedora
-#font-name = Noto Sans 10
+#font-name = Noto Sans 9
 
 # Debian
-font-name = Ubuntu 10
+font-name = Ubuntu 9
 
 # All
 theme-name = Arc
