@@ -5,7 +5,7 @@ set $mod Mod4
 default_border pixel
 
 # font
-font pango:Ubuntu, Noto Sans 10
+font pango:Ubuntu, Cantarell, Noto Sans 9
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -162,7 +162,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         position top
-        font pango:Ubuntu Mono, Noto Sans Mono 10
+        font pango:Ubuntu Mono, Source Code Pro, Noto Sans Mono 9
         status_command i3status
         strip_workspace_numbers yes
 }
