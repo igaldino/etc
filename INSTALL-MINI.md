@@ -8,7 +8,7 @@ EOF
 sudo apt update -y && sudo apt upgrade -y
 
 # SOFTWARE
-sudo apt install -y accountsservice adwaita-qt arc-theme audacity blueman bluez-firmware breeze-cursor-theme compton dia dirmngr dunst evince file-roller firmware-misc-nonfree flatpak fonts-font-awesome fonts-ubuntu fwupd galculator gedit git gitg gvfs-backends hexchat i3lock imagemagick intel-microcode keepassxc lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxappearance lxpolkit lxterminal meld mpv nautilus-dropbox network-manager-gnome nitrogen papirus-icon-theme pavucontrol pasystray pcmanfm pulseaudio-module-bluetooth python-gobject qt5-style-plugins redshift-gtk rofi rsync tlp tlp-rdw unrar vim xautolock xbacklight xfce4-power-manager xserver-xorg-core xserver-xorg-input-libinput
+sudo apt install -y accountsservice adwaita-qt arc-theme audacity blueman bluez-firmware breeze-cursor-theme compton dia dirmngr dunst evince file-roller firmware-misc-nonfree flatpak fonts-font-awesome fonts-ubuntu fwupd galculator gedit git gitg gvfs-backends hexchat i3lock imagemagick intel-microcode keepassxc lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxappearance lxpolkit lxterminal meld mpv nautilus-dropbox network-manager-gnome nitrogen papirus-icon-theme pavucontrol pasystray pcmanfm pulseaudio-module-bluetooth python-gobject qt5-style-plugins redshift-gtk rofi rsync tlp tlp-rdw unrar viewnior vim xautolock xbacklight xfce4-power-manager xserver-xorg-core xserver-xorg-input-libinput
 
 # Google Chrome
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -35,7 +35,7 @@ sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-r
 sudo dnf update -y
 
 # SOFTWARE
-sudo dnf install -y adwaita-qt arc-theme audacity bash-completion blueman breeze-cursor-theme brightlight compton dia dunst duplicity evince file-roller flameshot flatpak fontawesome-fonts fwupd galculator gedit git gitg i3lock keepassxc libreoffice lightdm-gtk lightdm-gtk-greeter-settings lxappearance lxpolkit lxterminal meld mpv nautilus-dropbox network-manager-applet NetworkManager-wifi nitrogen papirus-icon-theme pasystray pavucontrol pcmanfm python3-gobject redshift-gtk rofi rsync unrar vim wget xautolock
+sudo dnf install -y adwaita-qt arc-theme audacity bash-completion blueman breeze-cursor-theme brightlight compton dia dunst duplicity evince file-roller flameshot flatpak fontawesome-fonts fwupd galculator gedit git gitg i3lock keepassxc libreoffice lightdm-gtk lightdm-gtk-greeter-settings lxappearance lxpolkit lxterminal meld mpv nautilus-dropbox network-manager-applet NetworkManager-wifi nitrogen papirus-icon-theme pasystray pavucontrol pcmanfm python3-gobject redshift-gtk rofi rsync unrar viewnior vim wget xautolock xfce4-power-manager
 
 # Google Chrome
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
