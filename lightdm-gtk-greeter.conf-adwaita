@@ -1,5 +1,5 @@
 [greeter]
-font-name = Cantarell 9
+font-name = Ubuntu, Cantarell, Noto Sans 9
 
 theme-name = Adwaita
 icon-theme-name = Adwaita

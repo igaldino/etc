@@ -1,14 +1,8 @@
 [greeter]
+font-name = Ubuntu, Cantarell, Noto Sans 9
 
-# Fedora
-#font-name = Noto Sans 9
-
-# Debian
-font-name = Ubuntu 9
-
-# All
-theme-name = Arc
-icon-theme-name = ePapirus
+theme-name = Arc-Dark
+icon-theme-name = Papirus-Dark
 
 indicators=~;~host;~spacer;~clock;~spacer;~session;~power;
 clock-format=%a, %d/%b, %H:%M
