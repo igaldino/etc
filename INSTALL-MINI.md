@@ -1,4 +1,4 @@
-# DEBIAN
+## DEBIAN
 
 # REPOSITORIES
 cat<<EOF | sudo tee -a /etc/apt/sources.list
@@ -8,7 +8,7 @@ EOF
 sudo apt update -y && sudo apt upgrade -y
 
 # SOFTWARE
-sudo apt install -y accountsservice adwaita-qt arc-theme audacity blueman bluez-firmware breeze-cursor-theme compton dia dirmngr dunst evince file-roller firmware-misc-nonfree flatpak fonts-font-awesome fonts-ubuntu fwupd galculator gedit git gitg gvfs-backends hexchat i3lock imagemagick intel-microcode keepassxc lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxappearance lxpolkit lxterminal meld mpv nautilus-dropbox network-manager-gnome nitrogen papirus-icon-theme pavucontrol pasystray pcmanfm pulseaudio-module-bluetooth python-gobject qt5-style-plugins redshift-gtk rofi rsync tlp tlp-rdw unrar viewnior vim xautolock xbacklight xfce4-power-manager xserver-xorg-core xserver-xorg-input-libinput
+sudo apt install -y accountsservice adwaita-qt arc-theme audacity blueman bluez-firmware breeze-cursor-theme compton dia dirmngr dunst evince file-roller firmware-misc-nonfree flatpak fonts-font-awesome fonts-ubuntu fwupd galculator gedit git gitg gvfs-backends hexchat i3lock imagemagick intel-microcode keepassxc lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxappearance lxpolkit lxterminal meld mpv nautilus-dropbox network-manager-gnome nitrogen papirus-icon-theme pavucontrol pasystray pcmanfm pulseaudio-module-bluetooth python-gobject qt5-style-plugins redshift-gtk rofi rsync tlp tlp-rdw unrar viewnior vim-nox xautolock xbacklight xfce4-power-manager xserver-xorg-core xserver-xorg-input-libinput
 
 # Google Chrome
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -28,7 +28,7 @@ sudo sed -i 's/quiet/quiet loglevel=3/1' /etc/default/grub
 sudo sed -i 's/^GRUB_TIMEOUT=.*$/GRUB_TIMEOUT=0/1' /etc/default/grub
 sudo update-grub
 
-# FEDORA
+## FEDORA
 
 # REPOSITORIES
 sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
@@ -56,7 +56,7 @@ sudo sed -i 's/quiet/quiet loglevel=3/1' /etc/default/grub
 sudo sed -i 's/^GRUB_TIMEOUT=.*$/GRUB_TIMEOUT=0/1' /etc/default/grub
 sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg || sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
-# GENERAL SETTINGS
+## GENERAL SETTINGS
 
 # GTK
 gsettings set org.gtk.Settings.FileChooser sort-directories-first true
