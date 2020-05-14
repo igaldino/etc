@@ -18,16 +18,16 @@ fi
 
 alias ls='ls --color'
 
-#if [ -f `which powerline-daemon` ]
-#then
-#  powerline-daemon -q
-#  POWERLINE_BASH_CONTINUATION=1
-#  POWERLINE_BASH_SELECT=1
-#  if [ -f ~/.local/lib/python3.7/site-packages/powerline/bindings/shell/powerline.sh ]
-#  then
-#    . ~/.local/lib/python3.7/site-packages/powerline/bindings/shell/powerline.sh
-#  fi
-#fi
+if [ -f `which powerline-daemon` ]
+then
+  powerline-daemon -q
+  POWERLINE_BASH_CONTINUATION=1
+  POWERLINE_BASH_SELECT=1
+  if [ -f ~/.local/lib/python3.7/site-packages/powerline/bindings/shell/powerline.sh ]
+  then
+    . ~/.local/lib/python3.7/site-packages/powerline/bindings/shell/powerline.sh
+  fi
+fi
 
 if [ -f ~/bin/dswd_envs.sh ]
 then
