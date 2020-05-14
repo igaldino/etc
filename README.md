@@ -1,14 +1,6 @@
 # Install
 
-## Debian
-```
-sudo apt install -y lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lxpolkit compton blueman pasystray network-manager-gnome xfce4-power-manager pavucontrol i3lock xautolock xbacklight python-gobject dunst rofi lxappearance lxterminal mousepad pcmanfm nitrogen redshift-gtk caffeine package-update-indicator fonts-ubuntu fonts-font-awesome arc-theme papirus-icon-theme
-```
-
-## Fedora
-```
-sudo dnf install -y upower lightdm-gtk lightdm-gtk-greeter-settings lxpolkit compton blueman pasystray network-manager-applet xfce4-power-manager pavucontrol i3lock xautolock brightlight python2-gobject python2-notify dunst rofi lxappearance lxterminal leafpad pcmanfm nitrogen redshift-gtk google-noto-sans-fonts google-noto-sans-mono-fonts fontawesome-fonts arc-theme papirus-icon-theme
-```
+Check INSTALL-MINI.md file
 
 # Settings
 ```
@@ -27,7 +19,7 @@ sudo cp ~/etc/lightdm-gtk-greeter.conf-numix /etc/lightdm/lightdm-gtk-greeter.co
 sudo systemctl enable lightdm
 ```
 
-## Cleaning
+# Cleaning
 ```
 rm -rf ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.config/{redshift.conf,dunst,rofi,volumeicon,nitrogen} ~/.cache/{dunst,rofi3.druncache,rofi-3.runcache,i3lock.png}
 sudo rm -rf /etc/lightdm
