@@ -15,6 +15,7 @@ sudo dnf install -y upower lightdm-gtk lightdm-gtk-greeter-settings lxpolkit com
 mkdir -p ~/.config/gtk-3.0
 mkdir -p ~/.config/dunst
 mkdir -p ~/.config/rofi
+echo ". ~/etc/bashrc" >> ~/.bashrc
 ln -sf ~/etc/_xsessionrc ~/.xsessionrc
 ln -sf ~/etc/redshift-sao-paulo.conf ~/.config/redshift.conf
 ln -sf ~/etc/_gtkrc-2.0-numix ~/.gtkrc-2.0

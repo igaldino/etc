@@ -1,22 +1,14 @@
 # .bashrc
 
-if [ -f /etc/bashrc ]
-then
-  . /etc/bashrc
-fi
-
-if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
-then
-    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-fi
-export PATH
-
 if [ -f /home/isaque/sqllib/db2profile ]
 then
     . /home/isaque/sqllib/db2profile
 fi
 
-alias ls='ls --color'
+if [ -f ~/bin/dswd_envs.sh ]
+then
+  . ~/bin/dswd_envs.sh
+fi
 
 if [ -f `which powerline-daemon` ]
 then
@@ -29,7 +21,3 @@ then
   fi
 fi
 
-if [ -f ~/bin/dswd_envs.sh ]
-then
-  . ~/bin/dswd_envs.sh
-fi
