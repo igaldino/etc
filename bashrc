@@ -19,6 +19,9 @@ then
   elif [ -f /usr/share/powerline/bindings/shell/powerline.sh ]
   then
     . /usr/share/powerline/bindings/shell/powerline.sh
+  elif [ -f /usr/share/powerline/shell/powerline.sh ]
+  then
+    . /usr/share/powerline/shell/powerline.sh
   fi
 fi
 
