@@ -1,5 +1,3 @@
-# .bashrc
-
 if [ -f /home/isaque/sqllib/db2profile ]
 then
     . /home/isaque/sqllib/db2profile
@@ -18,6 +16,9 @@ then
   if [ -f ~/.local/lib/python3.7/site-packages/powerline/bindings/shell/powerline.sh ]
   then
     . ~/.local/lib/python3.7/site-packages/powerline/bindings/shell/powerline.sh
+  elif [ -f /usr/share/powerline/bindings/shell/powerline.sh ]
+  then
+    . /usr/share/powerline/bindings/shell/powerline.sh
   fi
 fi
 
