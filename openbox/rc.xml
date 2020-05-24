@@ -184,8 +184,8 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
-    <!-- alt-tab -->
-    <keybind key="A-Tab">
+    <!-- cycle through all windows current workspace -->
+    <keybind key="W-Tab">
       <action name="NextWindow">
         <finalactions>
           <action name="Focus"/>
@@ -194,7 +194,7 @@
         </finalactions>
       </action>
     </keybind>
-    <keybind key="A-S-Tab">
+    <keybind key="W-S-Tab">
       <action name="PreviousWindow">
         <finalactions>
           <action name="Focus"/>
@@ -204,9 +204,24 @@
       </action>
     </keybind>
     <!-- cycle through all windows -->
-    <keybind key="W-Tab">
-      <action name="Execute">
-        <command>rofi -show window</command>
+    <keybind key="A-Tab">
+      <action name="NextWindow">
+        <allDesktops>yes</allDesktops>
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
+    <keybind key="A-S-Tab">
+      <action name="PreviousWindow">
+        <allDesktops>yes</allDesktops>
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
       </action>
     </keybind>
     <!-- open root menu -->

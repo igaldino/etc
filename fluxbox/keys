@@ -26,9 +26,9 @@ OnTitlebar Mouse2 :Lower
 # right click on the titlebar for a menu of options
 OnTitlebar Mouse3 :WindowMenu
 
-# alt-tab
-Mod1 Tab :NextWindow {groups} (workspace=[current])
-Mod1 Shift Tab :PrevWindow {groups} (workspace=[current])
+# cycle through all windows current workspace
+Mod4 Tab :NextWindow {groups} (workspace=[current])
+Mod4 Shift Tab :PrevWindow {groups} (workspace=[current])
 
 # change focus
 Mod4 j :FocusLeft
@@ -38,7 +38,8 @@ Mod4 ccedilla :FocusRight
 Mod4 semicolon :FocusRight
 
 # cycle through all windows
-Mod4 Tab :Exec rofi -show window
+Mod1 Tab :NextWindow {groups}
+Mod1 Shift Tab :PrevWindow {groups}
 
 # open root menu
 Mod4 a :RootMenu
