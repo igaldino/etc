@@ -13,15 +13,15 @@ then
   powerline-daemon -q
   POWERLINE_BASH_CONTINUATION=1
   POWERLINE_BASH_SELECT=1
-  if [ -f ~/.local/lib/python3.7/site-packages/powerline/bindings/shell/powerline.sh ]
+  if [ -f ~/.local/lib/python3.7/site-packages/powerline/bindings/bash/powerline.sh ]
   then
-    . ~/.local/lib/python3.7/site-packages/powerline/bindings/shell/powerline.sh
-  elif [ -f /usr/share/powerline/bindings/shell/powerline.sh ]
+    . ~/.local/lib/python3.7/site-packages/powerline/bindings/bash/powerline.sh
+  elif [ -f /usr/share/powerline/bindings/bash/powerline.sh ]
   then
-    . /usr/share/powerline/bindings/shell/powerline.sh
-  elif [ -f /usr/share/powerline/shell/powerline.sh ]
+    . /usr/share/powerline/bindings/bash/powerline.sh
+  elif [ -f /usr/share/powerline/bash/powerline.sh ]
   then
-    . /usr/share/powerline/shell/powerline.sh
+    . /usr/share/powerline/bash/powerline.sh
   fi
 fi
 
