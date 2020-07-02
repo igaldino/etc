@@ -4,11 +4,13 @@ Check INSTALL-MINI.md file
 
 # Settings
 ```
+mkdir -p ~/.config/powerline
 mkdir -p ~/.config/gtk-3.0
 mkdir -p ~/.config/dunst
 mkdir -p ~/.config/rofi
 echo ". ~/etc/bashrc" >> ~/.bashrc
 ln -sf ~/etc/_xsessionrc ~/.xsessionrc
+ln -sf ~/etc/powerline-config.json ~/.config/powerline/config.json
 ln -sf ~/etc/redshift-sao-paulo.conf ~/.config/redshift.conf
 ln -sf ~/etc/_gtkrc-2.0-numix ~/.gtkrc-2.0
 ln -sf ~/etc/settings.ini-numix ~/.config/gtk-3.0/settings.ini
