@@ -11,5 +11,15 @@ set expandtab
 set shiftwidth=2
 set number
 colorscheme desert
-:map  :tabnew
+map <C-t> :tabnew<CR>
 set clipboard=unnamedplus
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+
+" CTRLP
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)|node_modules$'
+
+" NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+map <C-n> :NERDTreeToggle<CR>
