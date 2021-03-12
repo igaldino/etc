@@ -6,12 +6,12 @@ set showtabline=2 " Always display the tabline, even if there is only one tab
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 set t_Co=256
 
+set nowrap
 set smartindent
 set expandtab
 set shiftwidth=2
 set number
 colorscheme desert
-map <C-t> :tabnew<CR>
 set clipboard=unnamedplus
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
@@ -23,3 +23,4 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)|node_modules$'
 " NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 map <C-n> :NERDTreeToggle<CR>
+
