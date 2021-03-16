@@ -17,7 +17,6 @@ set clipboard=unnamedplus
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
 " CTRLP
-set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)|node_modules$'
 
 " NERDTree
