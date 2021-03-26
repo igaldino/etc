@@ -51,6 +51,17 @@ sudo dnf update -y
 sudo dnf install -y adwaita-qt arc-theme audacity bash-completion blueman breeze-cursor-theme brightlight compton dia dunst duplicity evince file-roller flameshot flatpak fontawesome-fonts fwupd galculator gedit git gitg i3lock keepassxc libreoffice lightdm-gtk lightdm-gtk-greeter-settings lxappearance lxpolkit lxterminal meld mpv nautilus-dropbox network-manager-applet NetworkManager-wifi nitrogen papirus-icon-theme pasystray pavucontrol pcmanfm python3-gobject redshift-gtk rofi rsync unrar viewnior vim wget xautolock xfce4-power-manager
 ```
 
+## Ubuntu fonts
+```
+wget -c https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip
+unzip ubuntu-font-family-0.83.zip && rm ubuntu-font-family-0.83.zip
+sudo mv ubuntu-font-family-0.83 /usr/share/fonts/.
+sudo chown root.root -R /usr/share/fonts/ubuntu-font-family-0.83
+sudo chmod 755 /usr/share/fonts/ubuntu-font-family-0.83
+sudo chmod 644 /usr/share/fonts/ubuntu-font-family-0.83/*
+sudo fc-cache -fv
+```
+
 ## Google Chrome
 ```
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
