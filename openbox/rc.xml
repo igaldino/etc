@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc-Dark</name>
+    <name>Qogir-dark</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -120,19 +120,13 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>10</number>
+    <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>1</name>
       <name>2</name>
       <name>3</name>
       <name>4</name>
-      <name>5</name>
-      <name>6</name>
-      <name>7</name>
-      <name>8</name>
-      <name>9</name>
-      <name>0</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -282,13 +276,33 @@
       <action name="Close"/>
     </keybind>
     <keybind key="W-Down">
-      <action name="Iconify"/>
+      <action name="Unmaximize"/>
     </keybind>
     <keybind key="W-Up">
-      <action name="ToggleMaximize"/>
+      <action name="Maximize"/>
     </keybind>
     <keybind key="W-f">
       <action name="ToggleFullscreen"/>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdge">
+        <direction>west</direction>
+      </action>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdge">
+        <direction>east</direction>
+      </action>
     </keybind>
     <keybind key="W-space">
       <action name="ShowMenu">
@@ -311,13 +325,13 @@
       <action name="Restart"/>
     </keybind>
     <!-- change workspace -->
-    <keybind key="W-Left">
+    <keybind key="W-Prior">
       <action name="GoToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-Right">
+    <keybind key="W-Next">
       <action name="GoToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -374,13 +388,13 @@
       </action>
     </keybind>
     <!-- send to workspace -->
-    <keybind key="W-S-Left">
+    <keybind key="W-S-Prior">
       <action name="SendToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-S-Right">
+    <keybind key="W-S-Next">
       <action name="SendToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -891,5 +905,13 @@
 
   # end of the example
 -->
+    <application class="Firefox">
+      <decor>no</decor>
+    </application>
+    <application title="Picture-in-Picture">
+      <decor>no</decor>
+      <desktop>all</desktop>
+      <layer>above</layer>
+    </application>
   </applications>
 </openbox_config>
