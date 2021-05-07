@@ -18,7 +18,7 @@ mkdir -p ~/.config/tint2
 ln -sf ~/etc/openbox/rc.xml ~/.config/openbox/rc.xml
 ln -sf ~/etc/openbox/menu.xml ~/.config/openbox/menu.xml
 ln -sf ~/etc/openbox/autostart ~/.config/openbox/autostart
-ln -sf ~/etc/openbox/tint2rc ~/.config/tint2/tint2rc
+ln -sf ~/etc/openbox/tint2rc-vert-panel ~/.config/tint2/tint2rc
 ```
 
 ## Cleaning
