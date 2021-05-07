@@ -912,6 +912,7 @@
       <decor>no</decor>
       <desktop>all</desktop>
       <layer>above</layer>
+      <skip_taskbar>yes</skip_taskbar>
     </application>
   </applications>
 </openbox_config>
