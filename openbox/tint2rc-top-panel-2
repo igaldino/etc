@@ -194,7 +194,7 @@ ac_disconnected_cmd =
 # Separator 1
 separator = new
 separator_background_id = 0
-separator_color = #777777 85
+separator_color = #777777 84
 separator_style = empty
 separator_size = 1
 separator_padding = 3 0
@@ -203,7 +203,7 @@ separator_padding = 3 0
 # Separator 2
 separator = new
 separator_background_id = 0
-separator_color = #777777 85
+separator_color = #777777 84
 separator_style = empty
 separator_size = 1
 separator_padding = 3 0
@@ -212,7 +212,7 @@ separator_padding = 3 0
 # Separator 3
 separator = new
 separator_background_id = 0
-separator_color = #777777 85
+separator_color = #777777 84
 separator_style = empty
 separator_size = 1
 separator_padding = 3 0
@@ -221,7 +221,7 @@ separator_padding = 3 0
 # Separator 4
 separator = new
 separator_background_id = 0
-separator_color = #777777 85
+separator_color = #777777 84
 separator_style = empty
 separator_size = 1
 separator_padding = 3 0
@@ -230,7 +230,7 @@ separator_padding = 3 0
 # Separator 5
 separator = new
 separator_background_id = 0
-separator_color = #777777 87
+separator_color = #777777 84
 separator_style = empty
 separator_size = 1
 separator_padding = 3 0
@@ -263,7 +263,7 @@ button_uwheel_command =
 button_dwheel_command = 
 button_font_color = #000000 100
 button_padding = 0 3
-button_background_id = -1
+button_background_id = 0
 button_centered = 0
 button_max_icon_size = 0
 
