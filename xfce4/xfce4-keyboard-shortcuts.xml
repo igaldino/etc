@@ -31,6 +31,7 @@
       <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Super&gt;m" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="&lt;Super&gt;t" type="string" value="xfce4-terminal"/>
+      <property name="Print" type="string" value="xfce4-screenshooter"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -131,6 +132,7 @@
       <property name="&lt;Super&gt;6" type="string" value="workspace_6_key"/>
       <property name="&lt;Super&gt;7" type="string" value="workspace_7_key"/>
       <property name="&lt;Super&gt;8" type="string" value="workspace_8_key"/>
+      <property name="&lt;Alt&gt;F12" type="string" value="above_key"/>
     </property>
   </property>
   <property name="providers" type="array">
