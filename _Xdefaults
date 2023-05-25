@@ -1,8 +1,9 @@
 *.multiClickTime:       750
 
-XTerm*faceName:         xft:Noto\ Sans\ Mono:size=9:antialias=true:hinting=true
+XTerm*faceName:         xft:Source\ Code\ Pro:size=9:antialias=true:hinting=true
+XTerm*scrollBar:         false
 
-Rxvt*font:              xft:Noto\ Sans\ Mono:size=9:antialias=true:hinting=true
+Rxvt*font:              xft:Source\ Code\ Pro:size=9:antialias=true:hinting=true
 Rxvt*depth:             32
 Rxvt*scrollBar:         false
 
