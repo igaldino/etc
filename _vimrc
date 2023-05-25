@@ -11,7 +11,7 @@ set smartindent
 set expandtab
 set shiftwidth=2
 set number
-colorscheme desert
+colorscheme slate
 set clipboard=unnamedplus
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
