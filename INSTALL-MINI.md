@@ -113,6 +113,11 @@ greeter-hide-users=false
 EOF
 ```
 
+## Mouse
+```
+sudo sed -i '/UserspaceHID=true/s/^#//g' /etc/bluetooth/input.conf
+```
+
 ## Touchpad
 ```
 sudo mkdir -p /etc/X11/xorg.conf.d
